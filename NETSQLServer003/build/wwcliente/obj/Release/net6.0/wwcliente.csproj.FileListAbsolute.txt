@@ -1,0 +1,10 @@
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\wwcliente.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\wwcliente.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\wwcliente\obj\Release\net6.0\wwcliente.csproj.AssemblyReference.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\wwcliente\obj\Release\net6.0\wwcliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\wwcliente\obj\Release\net6.0\wwcliente.csproj.CoreCompileInputs.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\wwcliente\obj\Release\net6.0\wwcliente.csproj.CopyComplete
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\wwcliente\obj\Release\net6.0\wwcliente.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\wwcliente\obj\Release\net6.0\refint\wwcliente.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\wwcliente\obj\Release\net6.0\wwcliente.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\wwcliente\obj\Release\net6.0\ref\wwcliente.dll

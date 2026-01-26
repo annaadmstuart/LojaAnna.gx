@@ -1,0 +1,10 @@
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\vendedoreseprodutos.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\vendedoreseprodutos.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\vendedoreseprodutos\obj\Release\net6.0\vendedoreseprodutos.csproj.AssemblyReference.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\vendedoreseprodutos\obj\Release\net6.0\vendedoreseprodutos.GeneratedMSBuildEditorConfig.editorconfig
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\vendedoreseprodutos\obj\Release\net6.0\vendedoreseprodutos.csproj.CoreCompileInputs.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\vendedoreseprodutos\obj\Release\net6.0\vendedoreseprodutos.csproj.CopyComplete
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\vendedoreseprodutos\obj\Release\net6.0\vendedoreseprodutos.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\vendedoreseprodutos\obj\Release\net6.0\refint\vendedoreseprodutos.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\vendedoreseprodutos\obj\Release\net6.0\vendedoreseprodutos.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\vendedoreseprodutos\obj\Release\net6.0\ref\vendedoreseprodutos.dll

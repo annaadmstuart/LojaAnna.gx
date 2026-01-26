@@ -1,0 +1,47 @@
+ 
+spec_i([ sdt,[ 0,2,0 ],'Categoria','Categoria',0,eng,'18_0_0-166471' ]).
+ 
+struct_dt_i([ 0,2,0 ],name,'Categoria').
+struct_dt_i([ 0,2,0 ],namespace,'LojaAnnaLaisa1').
+struct_dt_i([ 0,2,0 ],significantName,'Categoria').
+struct_dt_i([ 0,2,0 ],'ObjName','Categoria').
+struct_dt_i([ 0,2,0 ],'ObjDesc','Categoria').
+struct_dt_i([ 0,2,0 ],'ExternalName','Categoria').
+struct_dt_i([ 0,2,0 ],'ExternalNamespace','LojaAnnaLaisa1').
+struct_dt_i([ 0,2,0 ],key,[ 4 ]).
+struct_dt_i([ 0,2,0 ],lvl,2).
+struct_dt_i([ 0,2,0 ],fullname,'Categoria').
+ 
+struct_dt_elem_i([ 0,2,0 ],1,name,'Categoriaid').
+struct_dt_elem_i([ 0,2,0 ],1,camelname,'CategoriaId').
+struct_dt_elem_i([ 0,2,0 ],1,basedon,96).
+struct_dt_elem_i([ 0,2,0 ],1,length,4).
+struct_dt_elem_i([ 0,2,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],1,sign,0).
+struct_dt_elem_i([ 0,2,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,2,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 0,2,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],1,attributeid,'4').
+struct_dt_elem_i([ 0,2,0 ],1,'ExternalName','CategoriaId').
+struct_dt_elem_i([ 0,2,0 ],1,'ExternalNamespace','LojaAnnaLaisa1').
+struct_dt_elem_i([ 0,2,0 ],2,name,'Categorianome').
+struct_dt_elem_i([ 0,2,0 ],2,camelname,'CategoriaNome').
+struct_dt_elem_i([ 0,2,0 ],2,basedon,97).
+struct_dt_elem_i([ 0,2,0 ],2,length,40).
+struct_dt_elem_i([ 0,2,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,2,0 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,2,0 ],2,pic,'').
+struct_dt_elem_i([ 0,2,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,2,0 ],2,attributeid,'5').
+struct_dt_elem_i([ 0,2,0 ],2,'ExternalName','CategoriaNome').
+struct_dt_elem_i([ 0,2,0 ],2,'ExternalNamespace','LojaAnnaLaisa1').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').

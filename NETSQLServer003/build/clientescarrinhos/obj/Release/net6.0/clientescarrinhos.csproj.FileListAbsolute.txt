@@ -1,0 +1,10 @@
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\clientescarrinhos.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\clientescarrinhos.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\clientescarrinhos\obj\Release\net6.0\clientescarrinhos.csproj.AssemblyReference.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\clientescarrinhos\obj\Release\net6.0\clientescarrinhos.GeneratedMSBuildEditorConfig.editorconfig
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\clientescarrinhos\obj\Release\net6.0\clientescarrinhos.csproj.CoreCompileInputs.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\clientescarrinhos\obj\Release\net6.0\clientescarrinhos.csproj.CopyComplete
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\clientescarrinhos\obj\Release\net6.0\clientescarrinhos.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\clientescarrinhos\obj\Release\net6.0\refint\clientescarrinhos.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\clientescarrinhos\obj\Release\net6.0\clientescarrinhos.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\clientescarrinhos\obj\Release\net6.0\ref\clientescarrinhos.dll

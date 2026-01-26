@@ -1,0 +1,10 @@
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\viewpais.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\viewpais.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewpais\obj\Release\net6.0\viewpais.csproj.AssemblyReference.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewpais\obj\Release\net6.0\viewpais.GeneratedMSBuildEditorConfig.editorconfig
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewpais\obj\Release\net6.0\viewpais.csproj.CoreCompileInputs.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewpais\obj\Release\net6.0\viewpais.csproj.CopyComplete
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewpais\obj\Release\net6.0\viewpais.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewpais\obj\Release\net6.0\refint\viewpais.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewpais\obj\Release\net6.0\viewpais.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewpais\obj\Release\net6.0\ref\viewpais.dll

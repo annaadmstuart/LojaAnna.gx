@@ -1,0 +1,10 @@
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\fornecedorgeneral.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\fornecedorgeneral.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\fornecedorgeneral\obj\Release\net6.0\fornecedorgeneral.csproj.AssemblyReference.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\fornecedorgeneral\obj\Release\net6.0\fornecedorgeneral.GeneratedMSBuildEditorConfig.editorconfig
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\fornecedorgeneral\obj\Release\net6.0\fornecedorgeneral.csproj.CoreCompileInputs.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\fornecedorgeneral\obj\Release\net6.0\fornecedorgeneral.csproj.CopyComplete
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\fornecedorgeneral\obj\Release\net6.0\fornecedorgeneral.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\fornecedorgeneral\obj\Release\net6.0\refint\fornecedorgeneral.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\fornecedorgeneral\obj\Release\net6.0\fornecedorgeneral.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\fornecedorgeneral\obj\Release\net6.0\ref\fornecedorgeneral.dll

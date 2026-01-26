@@ -1,0 +1,22 @@
+bc_dt_elem_i([ 0,6,0 ],'Produtoid',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Produtonome',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Produtodescricao',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Produtopreco',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Produtoimagem',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Vendedorprodutoid',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Vendedorprodutonome',readonly,yes).
+bc_dt_elem_i([ 0,6,0 ],'Vendedorprodutonome',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Vendedorprodutoimagem',readonly,yes).
+bc_dt_elem_i([ 0,6,0 ],'Vendedorprodutoimagem',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Paisprodutoid',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Paisprodutonome',readonly,yes).
+bc_dt_elem_i([ 0,6,0 ],'Paisprodutonome',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Fornecedorprodutoid',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Fornecedorprodutonome',readonly,yes).
+bc_dt_elem_i([ 0,6,0 ],'Fornecedorprodutonome',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Categoriaprodutoid',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Categoriaprodutonome',readonly,yes).
+bc_dt_elem_i([ 0,6,0 ],'Categoriaprodutonome',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Produtoimagem_gxi',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Vendedorprodutoimagem_gxi',readonly,yes).
+ 

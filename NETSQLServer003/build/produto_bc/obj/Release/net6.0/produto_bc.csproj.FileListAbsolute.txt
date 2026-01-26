@@ -1,0 +1,10 @@
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\produto_bc.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\produto_bc.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\produto_bc\obj\Release\net6.0\produto_bc.csproj.AssemblyReference.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\produto_bc\obj\Release\net6.0\produto_bc.GeneratedMSBuildEditorConfig.editorconfig
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\produto_bc\obj\Release\net6.0\produto_bc.csproj.CoreCompileInputs.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\produto_bc\obj\Release\net6.0\produto_bc.csproj.CopyComplete
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\produto_bc\obj\Release\net6.0\produto_bc.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\produto_bc\obj\Release\net6.0\refint\produto_bc.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\produto_bc\obj\Release\net6.0\produto_bc.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\produto_bc\obj\Release\net6.0\ref\produto_bc.dll

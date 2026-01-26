@@ -1,0 +1,26 @@
+bc_dt_elem_i([ 0,13,0 ],'Carrinhocomprasid',allownulls,no).
+bc_dt_elem_i([ 0,13,0 ],'Carrinhocomprasdata',allownulls,no).
+bc_dt_elem_i([ 0,13,0 ],'Clientecarrinhocomprasid',allownulls,no).
+bc_dt_elem_i([ 0,13,0 ],'Clientecarrinhocomprasnome',readonly,yes).
+bc_dt_elem_i([ 0,13,0 ],'Clientecarrinhocomprasnome',allownulls,no).
+bc_dt_elem_i([ 0,13,0 ],'Clientecarrinhocomprasendereco',readonly,yes).
+bc_dt_elem_i([ 0,13,0 ],'Clientecarrinhocomprasendereco',allownulls,no).
+bc_dt_elem_i([ 0,13,0 ],'Clientecarrinhocompraspaisid',readonly,yes).
+bc_dt_elem_i([ 0,13,0 ],'Clientecarrinhocompraspaisid',allownulls,no).
+bc_dt_elem_i([ 0,13,0 ],'Clientecarrinhocompraspaisnome',readonly,yes).
+bc_dt_elem_i([ 0,13,0 ],'Clientecarrinhocompraspaisnome',allownulls,no).
+bc_dt_elem_i([ 0,13,0 ],'Carrinhocomprasprecototal',readonly,yes).
+bc_dt_elem_i([ 0,13,0 ],'Carrinhocomprasdataentrega',readonly,yes).
+bc_dt_elem_i([ 0,13,0 ],'Carrinhocompraspontos',readonly,yes).
+bc_dt_elem_i([ 0,13,[ 19,52 ] ],'Produtoid',allownulls,no).
+bc_dt_elem_i([ 0,13,[ 19,52 ] ],'Produtonome',readonly,yes).
+bc_dt_elem_i([ 0,13,[ 19,52 ] ],'Produtonome',allownulls,no).
+bc_dt_elem_i([ 0,13,[ 19,52 ] ],'Produtopreco',readonly,yes).
+bc_dt_elem_i([ 0,13,[ 19,52 ] ],'Produtopreco',allownulls,no).
+bc_dt_elem_i([ 0,13,[ 19,52 ] ],'Produtoimagem',readonly,yes).
+bc_dt_elem_i([ 0,13,[ 19,52 ] ],'Produtoimagem',allownulls,no).
+bc_dt_elem_i([ 0,13,[ 19,52 ] ],'Carrinhocomprasprodutosquantidade',allownulls,no).
+bc_dt_elem_i([ 0,13,[ 19,52 ] ],'Produtosprecototal',readonly,yes).
+bc_dt_elem_i([ 0,13,[ 19,52 ] ],'Produtoimagem_gxi',readonly,yes).
+bc_dt_elem_i([ 0,13,[ 19,52 ] ],'Produtoimagem_gxi',allownulls,no).
+ 

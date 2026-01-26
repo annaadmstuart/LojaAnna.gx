@@ -1,0 +1,10 @@
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\promocaoprodutowc.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\promocaoprodutowc.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\promocaoprodutowc\obj\Release\net6.0\promocaoprodutowc.csproj.AssemblyReference.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\promocaoprodutowc\obj\Release\net6.0\promocaoprodutowc.GeneratedMSBuildEditorConfig.editorconfig
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\promocaoprodutowc\obj\Release\net6.0\promocaoprodutowc.csproj.CoreCompileInputs.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\promocaoprodutowc\obj\Release\net6.0\promocaoprodutowc.csproj.CopyComplete
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\promocaoprodutowc\obj\Release\net6.0\promocaoprodutowc.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\promocaoprodutowc\obj\Release\net6.0\refint\promocaoprodutowc.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\promocaoprodutowc\obj\Release\net6.0\promocaoprodutowc.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\promocaoprodutowc\obj\Release\net6.0\ref\promocaoprodutowc.dll

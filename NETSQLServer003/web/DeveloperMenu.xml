@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="prgs.xsl"?>
+<Objects>
+   <Charset>UTF-8</Charset>
+   <Path>file:///C:/Program Files (x86)/GeneXus/GeneXus18/</Path>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWCarrinhoCompras</ObjName>
+      <ObjDesc>Carrinho de compras</ObjDesc>
+      <ObjLink>wwcarrinhocompras.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWVendedor</ObjName>
+      <ObjDesc>Vendedors</ObjDesc>
+      <ObjLink>wwvendedor.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWProduto</ObjName>
+      <ObjDesc>Produtoes</ObjDesc>
+      <ObjLink>wwproduto.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWCliente</ObjName>
+      <ObjDesc>Clientes</ObjDesc>
+      <ObjLink>wwcliente.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>CatergoriaProdutos</ObjName>
+      <ObjDesc>Categorias e Produtos</ObjDesc>
+      <ObjLink>catergoriaprodutos.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>VendedoresEProdutos</ObjName>
+      <ObjDesc>Vendedores e Produtos</ObjDesc>
+      <ObjLink>vendedoreseprodutos.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>ClienteECarrinhoCompras</ObjName>
+      <ObjDesc>Cliente ECarrinho Compras</ObjDesc>
+      <ObjLink>clienteecarrinhocompras.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWPais</ObjName>
+      <ObjDesc>País</ObjDesc>
+      <ObjLink>wwpais.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWCategoria</ObjName>
+      <ObjDesc>Categorias</ObjDesc>
+      <ObjLink>wwcategoria.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWFornecedor</ObjName>
+      <ObjDesc>Fornecedors</ObjDesc>
+      <ObjLink>wwfornecedor.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWPromocao</ObjName>
+      <ObjDesc>Promoçãoes</ObjDesc>
+      <ObjLink>wwpromocao.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>WWCartaoPontos</ObjName>
+      <ObjDesc>Cartão de pontoss</ObjDesc>
+      <ObjLink>wwcartaopontos.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>Principal</ObjName>
+      <ObjDesc>Principal</ObjDesc>
+      <ObjLink>principal.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>IncrementaPreco</ObjName>
+      <ObjDesc>Incrementa preço</ObjDesc>
+      <ObjLink>incrementapreco.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>ClientesCarrinhos</ObjName>
+      <ObjDesc>Clientes e Carrinhos</ObjDesc>
+      <ObjLink>clientescarrinhos.aspx</ObjLink>
+   </Object>
+   <Object>
+      <ObjCls>13</ObjCls>
+      <ObjName>ProdutosPais</ObjName>
+      <ObjDesc>Produtos por país</ObjDesc>
+      <ObjLink>produtospais.aspx</ObjLink>
+   </Object>
+</Objects>

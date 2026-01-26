@@ -1,0 +1,10 @@
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\produtoprodutoswc.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\produtoprodutoswc.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\produtoprodutoswc\obj\Release\net6.0\produtoprodutoswc.csproj.AssemblyReference.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\produtoprodutoswc\obj\Release\net6.0\produtoprodutoswc.GeneratedMSBuildEditorConfig.editorconfig
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\produtoprodutoswc\obj\Release\net6.0\produtoprodutoswc.csproj.CoreCompileInputs.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\produtoprodutoswc\obj\Release\net6.0\produtoprodutoswc.csproj.CopyComplete
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\produtoprodutoswc\obj\Release\net6.0\produtoprodutoswc.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\produtoprodutoswc\obj\Release\net6.0\refint\produtoprodutoswc.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\produtoprodutoswc\obj\Release\net6.0\produtoprodutoswc.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\produtoprodutoswc\obj\Release\net6.0\ref\produtoprodutoswc.dll

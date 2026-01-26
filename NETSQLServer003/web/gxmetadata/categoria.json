@@ -1,0 +1,4 @@
+{
+
+"GxObject":{"ObjectType":"BusinessComponent","Name":"Categoria","idConnectivitySupport":"idInherit","Structure":{"Levels":[{"Name":"Categoria","ParentLevel":"","LevelName":"Categoria","Description":"Categoria","Attributes":[{"Name":"CategoriaId","Caption":"Categoria","default":"0","IsKey":"true","ReadOnly":"false","AttributeType":"int","Description":"Categoria","Length":"4","Decimals":"0","Signed":"false","AllowDBNulls":"false","Domain":"Id","InternalName":"CategoriaId","InputPicture":"ZZZ9","Type":"xs:int"},{"Name":"CategoriaNome","Caption":"Nome","default":"","IsKey":"false","ReadOnly":"false","AttributeType":"svchar","Description":"Nome","Length":"40","Decimals":"0","Signed":"false","AllowDBNulls":"false","Domain":"Nome","InternalName":"CategoriaNome","DescriptionAtt":"true","InputPicture":"","Type":"xs:string"}]}]},"Relations":{"ManyToOne":{"references":[]}}}
+}

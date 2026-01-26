@@ -1,0 +1,529 @@
+spec_i([ proc,16,'Produtos Categoria','ProdutosCategoria',78,eng,'18_0_0-166471' ]).
+ 
+struct_i(3,1,[],[]).
+struct_i(4,3,[ 30 ],[]).
+ 
+level_i(3,[ 6,[ [ 6,many ],[ 516,one ],[ 519,one ] ],[],[],[ [ [ 6,516,519 ],[ 30,40001,40000,68,25,22,20,23,31,24 ] ] ],[ [ [ 6,516,519 ],[] ] ],[ 30 ],'IPRODUTO1',[],[] ]).
+level_i(4,[ 6,[ [ 6,many ],[ 516,one ] ],[],[],[ [ [ 6,516 ],[ 30,40001,40000,68,25,22,20,23,24 ] ] ],[ [ [ 6,516 ],[] ] ],[ 30 ],'IPRODUTO1',[ 6,[ [ [],30,30 ] ] ],[] ]).
+ 
+tw_i(3,[ [ 516,[ [ 6,24,6 ] ] ],[ 519,[ [ 6,30,4 ] ] ] ]).
+tw_i(4,[ [ 516,[ [ 6,24,6 ] ] ] ]).
+ 
+lwi_i(4,[ [] ]).
+lwi_i(3,[ [] ]).
+ 
+cond_constraint_i(3,[ [ t(30,2),t(=,10),t('Categoriaid',23) ],[ 30 ],[ t('.NOT.',8),t('null(',1),t('Categoriaid',23),t(')',4) ],[] ]).
+ 
+ 
+ 
+ta_i(3,[ [ [ 6,24 ],[ 6,30 ],[ 516,40001 ],[ 6,40000 ],[ 516,68 ],[ 516,25 ],[ 6,22 ],[ 6,20 ],[ 6,23 ],[ 519,31 ] ] ]).
+ta_i(4,[ [ [ 6,24 ],[ 6,30 ],[ 516,40001 ],[ 6,40000 ],[ 516,68 ],[ 516,25 ],[ 6,22 ],[ 6,20 ],[ 6,23 ] ] ]).
+ 
+las_i(3,[ [ 30,40001,40000,68,25,22,20,23,31,24 ] ]).
+las_i(4,[ [ 30,40001,40000,68,25,22,20,23,24 ] ]).
+ 
+lac_i(3,[ [] ]).
+lac_i(4,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','')).
+rule_i(0,datastore(1,'USER_ID','')).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','NOTEBOOKLYDIA\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME','LOJALA√çSAANNA777')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','ProdutosCategoria')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('AppGenerator','1')).
+rule_i(0,prop('AppLocation','')).
+rule_i(0,prop('AppIcon','')).
+rule_i(0,prop('AppTitle','')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(102,'LojaAnnaLaisa'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','HTTP')).
+rule_i(0,prop('IsMain','-1')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'Pdfs'))).
+rule_i(0,prop('ObjDesc','Produtos Categoria')).
+rule_i(0,prop('ObjName','ProdutosCategoria')).
+rule_i(0,maingen(41)).
+rule_i(0,prop('PGMTYPE',main)).
+rule_i(0,parm([ 'Categoriaid' ],[])).
+rule_i(0,parmio([ [ 'Categoriaid',inout ] ])).
+rule_i(0,output_file(t('ProdutosCategoria.pdf',3),t(pdf,3))).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Line',[],[ [],[ t(0,3) ] ]).
+a_i(2,2,f,'Page',[],[ [],[ t('Page',23),t(+,5),t('1',3) ] ]).
+a_i(3,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(4,4,t,6,[],[ [ [ [],30,30 ] ],'IPRODUTO1',[] ]).
+a_i(5,4,r,516,[],[ [ [ 6,24,6 ] ],'IVENDEDOR',[] ]).
+a_i(6,3,t,6,[],[ [],'IPRODUTO1',[] ]).
+a_i(7,3,r,516,[],[ [ [ 6,24,6 ] ],'IVENDEDOR',[] ]).
+a_i(8,3,r,519,[],[ [ [ 6,30,4 ] ],'ICATEGORIA',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Line').
+v_i(f,i,2,'Page').
+v_i(f,o,2,'Page').
+v_i(f,i,3,[]).
+v_i(f,o,3,'Err').
+v_i(t,i,4,30).
+v_i(t,o,4,24).
+v_i(t,o,4,40000).
+v_i(t,o,4,22).
+v_i(t,o,4,20).
+v_i(t,o,4,23).
+v_i(r,i,5,24).
+v_i(r,o,5,40001).
+v_i(r,o,5,68).
+v_i(r,o,5,25).
+v_i(t,i,6,[]).
+v_i(t,o,6,24).
+v_i(t,o,6,30).
+v_i(t,o,6,40000).
+v_i(t,o,6,22).
+v_i(t,o,6,20).
+v_i(t,o,6,23).
+v_i(r,i,7,24).
+v_i(r,o,7,40001).
+v_i(r,o,7,68).
+v_i(r,o,7,25).
+v_i(r,i,8,30).
+v_i(r,o,8,31).
+ 
+ 
+ca_i(2,'Page').
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',17 ]).
+attri_i(4,[ 'CategoriaId',int,4,0,'ZZZ9',0,'Categoria','',0 ]).
+attri_i(19,[ 'ProdutoId',int,4,0,'ZZZ9',0,'Produto','',0 ]).
+attri_i(6,[ 'VendedorId',int,4,0,'ZZZ9',0,'Vendedor','',0 ]).
+attri_i(24,[ 'VendedorProdutoId',int,4,0,'ZZZ9',0,'Vendedor ','',0 ]).
+attri_i('Page',[ 'Gx_page',int,6,0,'ZZZZZ9',0,'Page number','',16 ]).
+attri_i('Line',[ 'Gx_line',int,6,0,'ZZZZZ9',0,'Line number','',15 ]).
+attri_i(31,[ 'CategoriaProdutoNome',svchar,40,0,'',0,'Categoria ','',0 ]).
+attri_i(30,[ 'CategoriaProdutoId',int,4,0,'ZZZ9',0,'Categoria ','',0 ]).
+attri_i(68,[ 'VendedorProdutoImagem',bits,4,0,'',0,'Imagem','',0 ]).
+attri_i(25,[ 'VendedorProdutoNome',svchar,40,0,'',0,'Vendedor ','',0 ]).
+attri_i(22,[ 'ProdutoPreco',int,10,2,'ZZZZZZ9.99',0,'PreÁo','',0 ]).
+attri_i(20,[ 'ProdutoNome',svchar,40,0,'',0,'Produto','',0 ]).
+attri_i(23,[ 'ProdutoImagem',bits,4,0,'',0,'Imagem','',0 ]).
+attri_i(40001,[ 'VendedorProdutoImagem_GXI',svchar,2048,0,'',0,'',[],0 ]).
+attri_i(40000,[ 'ProdutoImagem_GXI',svchar,2048,0,'',0,'',[],0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',12 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',11 ]).
+attri_i('Produtoid',[ 'ProdutoId',int,4,0,'ZZZ9',0,'Produto','',10 ]).
+attri_i('Mensagem',[ mensagem,svchar,300,0,'',0,mensagem,'',9 ]).
+attri_i('Categoriaid',[ 'CategoriaId',int,4,0,'ZZZ9',0,'Categoria','',8 ]).
+ 
+table_i(519,[ 'Categoria',[ 30,31 ],'Categoria','Categoria' ]).
+table_i(516,[ 'Vendedor',[ 24,25,68,40001 ],'Vendedor','Vendedor' ]).
+table_i(6,[ 'Produto',[ 19,20,22,23,40000,24,30 ],'Produto','Produto' ]).
+ 
+index_i(6,[ 'IPRODUTO',u,[ 19 ],'IProduto' ]).
+index_i(6,[ 'IPRODUTO1',d,[ 30 ],'IProduto1' ]).
+index_i(516,[ 'IVENDEDOR',u,[ 24 ],'IVendedor' ]).
+index_i(519,[ 'ICATEGORIA',u,[ 30 ],'ICategoria' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+add_att_i(bits,5,40000,23,'ProdutoImagem_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,5,40001,68,'VendedorProdutoImagem_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,5,40002,8,'VendedorFoto_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,5,40003,3,'PaisBandeira_GXI',[ svchar,2048,0,0 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+map_i(519,a,31,[ 'CategoriaNome' ]).
+map_i(519,a,30,[ 'CategoriaId' ]).
+map_i(516,a,68,[ 'VendedorFoto' ]).
+map_i(516,a,25,[ 'VendedorNome' ]).
+map_i(516,a,24,[ 'VendedorId' ]).
+map_i(516,a,40001,[ 'VendedorFoto_GXI' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(97,[ 'Nome' ]).
+dom_info_i(96,[ 'Id' ]).
+ 
+ 
+break_i(2,page,1,[],[ [],[],[] ]).
+break_i(4,nvg,3,[],[ [ 23,20,22,25,68,40000,40001 ],[],[] ]).
+break_i(3,nvg,1,[ 30 ],[ [ 30,31 ],[ 30 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,page,2,0,0).
+b_group_i(2,1,lit,0,2,9).
+b_group_i(1,3,lit,0,10,9).
+b_group_i(1,4,nvg,3,5,5).
+b_group_i(3,1,lit,0,12,13).
+b_group_i(3,2,nvg,4,9,9).
+b_group_i(4,1,lit,0,16,21).
+b_group_i(3,3,lit,0,22,20).
+b_group_i(1,5,lit,0,24,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(2,2,1,pb,2,[ t('Cabecalho',29,2,8) ]).
+b_line_i([ 2,0 ],2,1,line,2,[ t(' ',3,0,0) ]).
+b_line_i([ 2,2 ],2,1,line,4,[ t('Joias e produtos',3,2,47) ]).
+b_line_i([ 2,6 ],2,1,line,8,[ t(' ',3,6,0) ]).
+b_line_i(3,2,1,cmd,9,[ t('',122,3,0) ]).
+b_line_i(4,1,3,cmd,9,[]).
+b_line_i(5,3,1,cmd,12,[ t('',121,5,0),t(table,3,5,10),t(6,3,5,10),t('ORDER',39,5,18),t(30,2,5,24) ]).
+b_line_i(7,3,1,pb,12,[ t('Categoria',29,12,8) ]).
+b_line_i([ 7,0 ],3,1,line,12,[ t(31,2,0,5) ]).
+b_line_i(8,3,1,cmd,13,[]).
+b_line_i(9,4,1,cmd,16,[ t('',121,9,0),t(table,3,9,11),t(6,3,9,11) ]).
+b_line_i(10,4,1,pb,16,[ t('Produtos',29,16,9) ]).
+b_line_i([ 10,0 ],4,1,line,16,[ t(23,2,0,9),t(40000,2,0,9),t(68,2,0,94),t(40001,2,0,94) ]).
+b_line_i([ 10,1 ],4,1,line,17,[ t(20,2,1,20),t(22,2,1,56),t(25,2,1,66) ]).
+b_line_i([ 10,4 ],4,1,line,20,[ t(' ',3,4,0) ]).
+b_line_i(11,4,1,cmd,21,[ t('',128,11,0) ]).
+b_line_i(12,3,3,cmd,20,[]).
+b_line_i(13,3,3,cmd,20,[ t('',128,13,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(2,2,bitmap(i(98,'d1264722-d6df-48f4-a529-c03a063b1abc')),[ ctlname('Gxreportimage1'),rect(120,13,247,96) ]).
+lit_i(3,2,t('Joias e produtos',3),[ font('Microsoft Sans Serif',16,[]),rect(333,37,573,70),outstyle(none),align(left),valign(top),fore(rgb(0,0,139)),border(1),ctlname('Gxreportlabel1'),gxcolor([]) ]).
+lit_i(4,2,rect(4),[ rect(7,103,824,103),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline1'),gxcolor([]),borderstyle(0) ]).
+lit_i(1,2,window,[ title('Text'),rect(0,0,827,112),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Cabecalho'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(6,7,t(31,2),[ font('Microsoft Sans Serif',12,[]),rect(40,3,333,25),outstyle(none),align(left),valign(top),noclip,fore(rgb(85,107,47)),border(1),format(0),ctlname('31'),ctrltype(edit,6),ispwd(0),gxcolor([]) ]).
+lit_i(5,7,window,[ title('Text'),rect(0,0,827,25),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Categoria'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(8,10,t(23,2),[ font('Microsoft Sans Serif',8,[]),rect(63,7,126,54),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('23'),ctrltype(edit,8),ispwd(0),gxcolor([]) ]).
+lit_i(9,10,t(20,2),[ font('Microsoft Sans Serif',8,[]),rect(143,20,273,35),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('20'),ctrltype(edit,9),ispwd(0),gxcolor([]) ]).
+lit_i(10,10,t(22,2),[ font('Microsoft Sans Serif',8,[]),rect(393,23,457,38),outstyle(none),align(right),valign(top),noclip,fore(rgb(0,0,0)),border(1),format(0),ctlname('22'),ctrltype(edit,10),ispwd(0),gxcolor([]) ]).
+lit_i(11,10,t(25,2),[ font('Microsoft Sans Serif',8,[]),rect(467,23,627,38),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('25'),ctrltype(edit,11),ispwd(0),gxcolor([]) ]).
+lit_i(12,10,t(68,2),[ font('Microsoft Sans Serif',8,[]),rect(663,10,713,70),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('68'),ctrltype(edit,12),ispwd(0),gxcolor([]) ]).
+lit_i(7,10,window,[ title('Text'),rect(0,0,827,81),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Produtos'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+calling_main_i(1,16).
+ 
+att_prop_i(5,23,'ExternalName','ProdutoImagem',d).
+att_prop_i(5,23,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,23,'EmptyAsNull','Yes',d).
+att_prop_i(5,23,'ExternalStorage','-1',d).
+att_prop_i(5,23,idBasedOn,'',d).
+att_prop_i(5,23,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,23,'AttRegEx','',d).
+att_prop_i(5,23,'AttValidationFailedMsg','',d).
+att_prop_i(5,23,'DownloadOffline','0',d).
+att_prop_i(5,23,'VarServiceExtName','',d).
+att_prop_i(5,23,'FullName','ProdutoImagem',v).
+att_prop_i(5,20,'ExternalName','ProdutoNome',d).
+att_prop_i(5,20,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,20,'EmptyAsNull','Yes',d).
+att_prop_i(5,20,idBasedOn,97,v).
+att_prop_i(5,20,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,20,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(5,20,'AttRegEx','',d).
+att_prop_i(5,20,'AttValidationFailedMsg','',d).
+att_prop_i(5,20,'DownloadOffline','0',d).
+att_prop_i(5,20,'VarServiceExtName','',d).
+att_prop_i(5,20,'FullName','ProdutoNome',v).
+att_prop_i(5,22,'ExternalName','ProdutoPreco',d).
+att_prop_i(5,22,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,22,'EmptyAsNull','Yes',d).
+att_prop_i(5,22,idBasedOn,'',d).
+att_prop_i(5,22,'AUTONUMBER','0',d).
+att_prop_i(5,22,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,22,'AttRegEx','',d).
+att_prop_i(5,22,'AttValidationFailedMsg','',d).
+att_prop_i(5,22,'DownloadOffline','0',d).
+att_prop_i(5,22,'VarServiceExtName','',d).
+att_prop_i(5,22,'FullName','ProdutoPreco',v).
+att_prop_i(5,25,'ExternalName','VendedorProdutoNome',d).
+att_prop_i(5,25,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,25,'EmptyAsNull','Yes',d).
+att_prop_i(5,25,idBasedOn,97,d).
+att_prop_i(5,25,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,25,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(5,25,'AttRegEx','',d).
+att_prop_i(5,25,'AttValidationFailedMsg','',d).
+att_prop_i(5,25,'DownloadOffline','0',d).
+att_prop_i(5,25,'VarServiceExtName','',d).
+att_prop_i(5,25,'FullName','VendedorProdutoNome',v).
+att_prop_i(5,68,'ExternalName','VendedorProdutoImagem',d).
+att_prop_i(5,68,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,68,'EmptyAsNull','Yes',v).
+att_prop_i(5,68,'ExternalStorage','-1',d).
+att_prop_i(5,68,idBasedOn,'',d).
+att_prop_i(5,68,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,68,'AttRegEx','',d).
+att_prop_i(5,68,'AttValidationFailedMsg','',d).
+att_prop_i(5,68,'DownloadOffline','0',d).
+att_prop_i(5,68,'VarServiceExtName','',d).
+att_prop_i(5,68,'FullName','VendedorProdutoImagem',v).
+att_prop_i(5,30,'ExternalName','CategoriaProdutoId',d).
+att_prop_i(5,30,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,30,'EmptyAsNull','Yes',d).
+att_prop_i(5,30,idBasedOn,96,d).
+att_prop_i(5,30,'AUTONUMBER','0',d).
+att_prop_i(5,30,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,30,'AttRegEx','',d).
+att_prop_i(5,30,'AttValidationFailedMsg','',d).
+att_prop_i(5,30,'DownloadOffline','0',d).
+att_prop_i(5,30,'VarServiceExtName','',d).
+att_prop_i(5,30,'FullName','CategoriaProdutoId',v).
+att_prop_i(5,31,'ExternalName','CategoriaProdutoNome',d).
+att_prop_i(5,31,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,31,'EmptyAsNull','Yes',d).
+att_prop_i(5,31,idBasedOn,97,d).
+att_prop_i(5,31,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,31,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(5,31,'AttRegEx','',d).
+att_prop_i(5,31,'AttValidationFailedMsg','',d).
+att_prop_i(5,31,'DownloadOffline','0',d).
+att_prop_i(5,31,'VarServiceExtName','',d).
+att_prop_i(5,31,'FullName','CategoriaProdutoNome',v).
+att_prop_i(5,24,'ExternalName','VendedorProdutoId',d).
+att_prop_i(5,24,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,24,'EmptyAsNull','Yes',d).
+att_prop_i(5,24,idBasedOn,96,d).
+att_prop_i(5,24,'AUTONUMBER','0',d).
+att_prop_i(5,24,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,24,'AttRegEx','',d).
+att_prop_i(5,24,'AttValidationFailedMsg','',d).
+att_prop_i(5,24,'DownloadOffline','0',d).
+att_prop_i(5,24,'VarServiceExtName','',d).
+att_prop_i(5,24,'FullName','VendedorProdutoId',v).
+att_prop_i(5,6,'ExternalName','VendedorId',d).
+att_prop_i(5,6,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,6,'EmptyAsNull','Yes',d).
+att_prop_i(5,6,idBasedOn,96,v).
+att_prop_i(5,6,'AUTONUMBER','0',d).
+att_prop_i(5,6,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,6,'AttRegEx','',d).
+att_prop_i(5,6,'AttValidationFailedMsg','',d).
+att_prop_i(5,6,'DownloadOffline','0',d).
+att_prop_i(5,6,'VarServiceExtName','',d).
+att_prop_i(5,6,'FullName','VendedorId',v).
+att_prop_i(5,19,'ExternalName','ProdutoId',d).
+att_prop_i(5,19,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,19,'EmptyAsNull','Yes',d).
+att_prop_i(5,19,idBasedOn,96,v).
+att_prop_i(5,19,'AUTONUMBER','0',d).
+att_prop_i(5,19,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,19,'AttRegEx','',d).
+att_prop_i(5,19,'AttValidationFailedMsg','',d).
+att_prop_i(5,19,'DownloadOffline','0',d).
+att_prop_i(5,19,'VarServiceExtName','',d).
+att_prop_i(5,19,'FullName','ProdutoId',v).
+att_prop_i(5,4,'ExternalName','CategoriaId',d).
+att_prop_i(5,4,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,4,'EmptyAsNull','Yes',d).
+att_prop_i(5,4,idBasedOn,96,v).
+att_prop_i(5,4,'AUTONUMBER','0',d).
+att_prop_i(5,4,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,4,'AttRegEx','',d).
+att_prop_i(5,4,'AttValidationFailedMsg','',d).
+att_prop_i(5,4,'DownloadOffline','0',d).
+att_prop_i(5,4,'VarServiceExtName','',d).
+att_prop_i(5,4,'FullName','CategoriaId',v).
+att_prop_i(5,40000,'ExternalName','',d).
+att_prop_i(5,40000,'ExternalNamespace','',d).
+att_prop_i(5,40000,'EmptyAsNull','Yes',d).
+att_prop_i(5,40000,idBasedOn,'',d).
+att_prop_i(5,40000,'AUTONUMBER','0',d).
+att_prop_i(5,40000,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,40000,'AttRegEx','',d).
+att_prop_i(5,40000,'AttValidationFailedMsg','',d).
+att_prop_i(5,40000,'FullName','',v).
+att_prop_i(5,40001,'ExternalName','',d).
+att_prop_i(5,40001,'ExternalNamespace','',d).
+att_prop_i(5,40001,'EmptyAsNull','Yes',d).
+att_prop_i(5,40001,idBasedOn,'',d).
+att_prop_i(5,40001,'AUTONUMBER','0',d).
+att_prop_i(5,40001,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,40001,'AttRegEx','',d).
+att_prop_i(5,40001,'AttValidationFailedMsg','',d).
+att_prop_i(5,40001,'FullName','',v).
+ 
+tbl_prop_i(5,6,'AllDirSuper',[ [ 519,[ 30 ] ],[ 516,[ 24 ] ] ],v).
+tbl_prop_i(5,2,'DirSubor',[ [ 6,[ 30 ] ] ],v).
+tbl_prop_i(5,519,'DirSubor',[ [ 6,[ 30 ] ] ],v).
+tbl_prop_i(5,3,'DirSubor',[ [ 6,[ 24 ] ] ],v).
+tbl_prop_i(5,516,'DirSubor',[ [ 6,[ 24 ] ] ],v).
+tbl_prop_i(5,6,'DirSuper',[ [ 519,[ 30 ] ],[ 516,[ 24 ] ] ],v).
+ 
+tbl_att_prop_i(5,6,19,'AllowNulls',n).
+tbl_att_prop_i(5,6,20,'AllowNulls',n).
+tbl_att_prop_i(5,6,22,'AllowNulls',n).
+tbl_att_prop_i(5,6,23,'AllowNulls',n).
+tbl_att_prop_i(5,6,40000,'AllowNulls',n).
+tbl_att_prop_i(5,6,24,'AllowNulls',n).
+tbl_att_prop_i(5,6,30,'AllowNulls',n).
+tbl_att_prop_i(5,516,24,'AllowNulls',n).
+tbl_att_prop_i(5,516,25,'AllowNulls',n).
+tbl_att_prop_i(5,516,68,'AllowNulls',n).
+tbl_att_prop_i(5,519,30,'AllowNulls',n).
+tbl_att_prop_i(5,519,31,'AllowNulls',n).
+ 
+var_prop_i(5,'Categoriaid',idBasedOn,'',v).
+var_prop_i(5,'Produtoid',idBasedOn,'',v).
+ 
+ 
+ 
+a_alias_i(40001,'VendedorProdutoImagem_GXI').
+a_alias_i(24,'VendedorProdutoId').
+a_alias_i(25,'VendedorProdutoNome').
+a_alias_i(68,'VendedorProdutoImagem').
+a_alias_i(30,'CategoriaProdutoId').
+a_alias_i(31,'CategoriaProdutoNome').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,16,'PRODUTOSCATEGORIA','HTTP','Unsecure').
+ 
+ 
+pgm_main_info_i(proc,16,'PRODUTOSCATEGORIA',[ 41,'APRODUTOSCATEGORIA','Produtos Categoria','','','','HTTP' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

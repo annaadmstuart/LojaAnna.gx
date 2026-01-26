@@ -1,0 +1,10 @@
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\clientecarrinhocompraswc.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\clientecarrinhocompraswc.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\clientecarrinhocompraswc\obj\Release\net6.0\clientecarrinhocompraswc.csproj.AssemblyReference.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\clientecarrinhocompraswc\obj\Release\net6.0\clientecarrinhocompraswc.GeneratedMSBuildEditorConfig.editorconfig
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\clientecarrinhocompraswc\obj\Release\net6.0\clientecarrinhocompraswc.csproj.CoreCompileInputs.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\clientecarrinhocompraswc\obj\Release\net6.0\clientecarrinhocompraswc.csproj.CopyComplete
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\clientecarrinhocompraswc\obj\Release\net6.0\clientecarrinhocompraswc.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\clientecarrinhocompraswc\obj\Release\net6.0\refint\clientecarrinhocompraswc.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\clientecarrinhocompraswc\obj\Release\net6.0\clientecarrinhocompraswc.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\clientecarrinhocompraswc\obj\Release\net6.0\ref\clientecarrinhocompraswc.dll

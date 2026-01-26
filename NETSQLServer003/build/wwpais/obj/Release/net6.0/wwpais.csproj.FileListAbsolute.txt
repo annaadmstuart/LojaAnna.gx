@@ -1,0 +1,10 @@
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\wwpais.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\wwpais.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\wwpais\obj\Release\net6.0\wwpais.csproj.AssemblyReference.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\wwpais\obj\Release\net6.0\wwpais.GeneratedMSBuildEditorConfig.editorconfig
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\wwpais\obj\Release\net6.0\wwpais.csproj.CoreCompileInputs.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\wwpais\obj\Release\net6.0\wwpais.csproj.CopyComplete
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\wwpais\obj\Release\net6.0\wwpais.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\wwpais\obj\Release\net6.0\refint\wwpais.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\wwpais\obj\Release\net6.0\wwpais.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\wwpais\obj\Release\net6.0\ref\wwpais.dll

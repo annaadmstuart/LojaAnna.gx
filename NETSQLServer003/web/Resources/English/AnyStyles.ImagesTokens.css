@@ -1,0 +1,32 @@
+@layer AnyStylesImagesTokens {
+:root
+{
+	--GX-Image_selectRow : url(../selectRow.png);
+	--GX-Image_PageFirst : url(PageFirst.gif);
+	--GX-Image_PageLast : url(PageLast.gif);
+	--GX-Image_PageNext : url(PageNext.gif);
+	--GX-Image_PagePrevious : url(PagePrevious.gif);
+	--GX-Image_Carrinho : url(../Carrinho.png);
+	--GX-Image_Uruguai : url(../Uruguai.png);
+	--GX-Image_Brasil : url(../Brasil.png);
+	--GX-Image_Argentina : url(../Argentina.png);
+	--GX-Image_Mexico : url(../Mexico.png);
+	--GX-Image_China : url(../China.png);
+	--GX-Image_EstadosUnidos : url(../EstadosUnidos.png);
+	--GX-Image_OnlineShop : url(../OnlineShop.jpg);
+}
+
+.GX_Image_selectRow_Class{content: var(--GX-Image_selectRow);}
+.GX_Image_PageFirst_Class{content: var(--GX-Image_PageFirst);}
+.GX_Image_PageLast_Class{content: var(--GX-Image_PageLast);}
+.GX_Image_PageNext_Class{content: var(--GX-Image_PageNext);}
+.GX_Image_PagePrevious_Class{content: var(--GX-Image_PagePrevious);}
+.GX_Image_Carrinho_Class{content: var(--GX-Image_Carrinho);}
+.GX_Image_Uruguai_Class{content: var(--GX-Image_Uruguai);}
+.GX_Image_Brasil_Class{content: var(--GX-Image_Brasil);}
+.GX_Image_Argentina_Class{content: var(--GX-Image_Argentina);}
+.GX_Image_Mexico_Class{content: var(--GX-Image_Mexico);}
+.GX_Image_China_Class{content: var(--GX-Image_China);}
+.GX_Image_EstadosUnidos_Class{content: var(--GX-Image_EstadosUnidos);}
+.GX_Image_OnlineShop_Class{content: var(--GX-Image_OnlineShop);}
+}

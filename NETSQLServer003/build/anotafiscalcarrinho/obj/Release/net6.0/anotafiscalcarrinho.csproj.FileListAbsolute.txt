@@ -1,0 +1,10 @@
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\anotafiscalcarrinho.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\anotafiscalcarrinho.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\anotafiscalcarrinho\obj\Release\net6.0\anotafiscalcarrinho.csproj.AssemblyReference.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\anotafiscalcarrinho\obj\Release\net6.0\anotafiscalcarrinho.GeneratedMSBuildEditorConfig.editorconfig
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\anotafiscalcarrinho\obj\Release\net6.0\anotafiscalcarrinho.csproj.CoreCompileInputs.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\anotafiscalcarrinho\obj\Release\net6.0\anotafiscalcarrinho.csproj.CopyComplete
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\anotafiscalcarrinho\obj\Release\net6.0\anotafiscalcarrinho.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\anotafiscalcarrinho\obj\Release\net6.0\refint\anotafiscalcarrinho.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\anotafiscalcarrinho\obj\Release\net6.0\anotafiscalcarrinho.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\anotafiscalcarrinho\obj\Release\net6.0\ref\anotafiscalcarrinho.dll

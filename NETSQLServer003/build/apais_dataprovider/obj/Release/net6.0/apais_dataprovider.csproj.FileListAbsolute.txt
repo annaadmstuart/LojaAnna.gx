@@ -1,0 +1,10 @@
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\apais_dataprovider.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\apais_dataprovider.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\apais_dataprovider\obj\Release\net6.0\apais_dataprovider.csproj.AssemblyReference.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\apais_dataprovider\obj\Release\net6.0\apais_dataprovider.GeneratedMSBuildEditorConfig.editorconfig
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\apais_dataprovider\obj\Release\net6.0\apais_dataprovider.csproj.CoreCompileInputs.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\apais_dataprovider\obj\Release\net6.0\apais_dataprovider.csproj.CopyComplete
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\apais_dataprovider\obj\Release\net6.0\apais_dataprovider.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\apais_dataprovider\obj\Release\net6.0\refint\apais_dataprovider.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\apais_dataprovider\obj\Release\net6.0\apais_dataprovider.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\apais_dataprovider\obj\Release\net6.0\ref\apais_dataprovider.dll

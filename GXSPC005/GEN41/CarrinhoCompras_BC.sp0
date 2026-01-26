@@ -1,0 +1,1134 @@
+spec_i([ trn,13,'Carrinho de compras','CarrinhoCompras_BC',[],eng,'18_0_0-166471' ]).
+ 
+struct_i(12,0,[ 'Websession' ],[]).
+struct_i(13,12,[ 52,65,62 ],[ 65,62 ]).
+ 
+level_i(13,[ 13,[ [ 13,many ],[ 6,one ],[ 519,one ] ],[ 52,19 ],[],[],[],[ 52,19 ],'ICARRINHOCOMPRASPRODUTOS',[ 13,[ [ [],52,52 ] ] ],[] ]).
+level_i(12,[ 12,[ [ 12,many ],[ 522,one ],[ 523,one ],[ 2000,one ] ],[ 52 ],[],[],[],[ 52 ],'ICARRINHOCOMPRAS',[ 12,[] ],[] ]).
+ 
+tw_i(13,[ [ 6,[ [ 13,19,19 ] ] ],[ 519,[ [ 6,30,4 ] ] ] ]).
+tw_i(12,[ [ 522,[ [ 12,54,43 ] ] ],[ 523,[ [ 522,57,1 ] ] ],[ 2000,[ [ 12,oe([ t(52,2) ]),52 ] ] ] ]).
+ 
+lwi_i(13,[ [] ]).
+lwi_i(12,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(13,[ [ [ 6,30 ],[ 13,52 ],[ 6,20 ],[ 6,22 ],[ 6,23 ],[ 6,40000 ],[ 13,60 ],[ 519,31 ],[ 13,19 ] ] ]).
+ta_i(12,[ [ [ 12,52 ],[ 12,53 ],[ 522,55 ],[ 522,56 ],[ 523,58 ],[ 12,54 ],[ 522,57 ],[ 2000,se(62,[ [ 2000,62 ] ],[ t('coalesce(',1),t(62,2),t(',',7),t('0',3),t(')',4) ]) ] ] ]).
+ 
+las_i(13,[ [ 30,52,19,65,62,64,20,22,23,40000,60,31 ] ]).
+las_i(12,[ [ 'Websession',52,'GxBScreen','Today',65,63,53,54,55,56,57,58,62 ] ]).
+ 
+lac_i(13,[ [ 19,60 ] ]).
+lac_i(12,[ [ 52,53,54 ] ]).
+ 
+ 
+ 
+cls_i([ 25,80 ],[ 0,0 ]).
+ 
+ 
+ 
+default_i(e(53,4,3,[ t('Today',23) ])).
+default_i(e('Today',2,2,'''today''')).
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','')).
+rule_i(0,datastore(1,'USER_ID','')).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','NOTEBOOKLYDIA\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME','LOJALAÃSAANNA777')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PKSupFKs',[])).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','CarrinhoCompras')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('SEARCH_VIEWER',o(13,'ViewCarrinhoCompras'))).
+rule_i(0,prop('SEARCHABLE','UMPV')).
+rule_i(0,prop('MTIER_OPT','Yes')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('KEY_MOREKEYS','UMPV')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_LAST','UMPV')).
+rule_i(0,prop('KEY_FIRST','UMPV')).
+rule_i(0,prop('KEY_SELECT','UMPV')).
+rule_i(0,prop('KEY_DISPLAY','UMPV')).
+rule_i(0,prop('KEY_DELETE','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_UPDATE','UMPV')).
+rule_i(0,prop('KEY_MENU','UMPV')).
+rule_i(0,prop('KEY_RETRIEVE','UMPV')).
+rule_i(0,prop('KEY_NEXT','UMPV')).
+rule_i(0,prop('KEY_PREVIOUS','UMPV')).
+rule_i(0,prop('KEY_INSERT','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_PROMPT','UMPV')).
+rule_i(0,prop('KEY_EXIT','UMPV')).
+rule_i(0,prop('KEY_CHECK','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebFormDefaults','0')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('FIELD_TO_FIELD','UMPV')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('CFMTRN','No')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('IsDwhTrn','0')).
+rule_i(0,prop(idDynTrnUpdatePolicy,idDynTrnUpdatePolicy_UPDATABLE)).
+rule_i(0,prop(idIsDynTrn,'0')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'General.UI.MasterUnanimoSidebar'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop(idFormLayout,'UnanimoTemplate')).
+rule_i(0,prop('Theme',o(102,'LojaAnnaLaisa'))).
+rule_i(0,prop('WS_Delete','-1')).
+rule_i(0,prop('WS_Update','-1')).
+rule_i(0,prop('WS_Insert','-1')).
+rule_i(0,prop('WS_View','-1')).
+rule_i(0,prop(idISBCWEBSERVICE,'0')).
+rule_i(0,prop('ExternalNamespace','LojaAnnaLaisa1')).
+rule_i(0,prop('ExternalName','CarrinhoCompras')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop(idISBUSINESSCOMPONENT,'-1')).
+rule_i(0,prop('Folder',o(8,'Transaction'))).
+rule_i(0,prop('ObjDesc','Carrinho de compras')).
+rule_i(0,prop('ObjName','CarrinhoCompras')).
+rule_i(0,rule([ a(22,[ 'Dlt','"Delete"','' ]) ],[],[],[])).
+rule_i(0,maingen(41)).
+rule_i(12,rule([ a(1,msg([ t('"Field Data is out of range"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t('null(',1),t(53,2),t(')',4),t('.OR.',9),t(53,2),t(>=,10),t('ymdtod(',1),t('1753',3),t(',',7),t('01',3),t(',',7),t('01',3),t(')',4),t(')',4) ],[ insert,update ],[ 53 ])).
+rule_i(12,rule([ a(99,[ [ oe([ t(52,2) ]) ] ]) ],[],[ insert,update,delete ],[ oe([ t(52,2) ]) ])).
+rule_i(12,rule([ a(1,[ t('"Não é permitido excluir registros do carrinho de hoje"',3) ]) ],[ t(53,2),t(=,10),t('Today',23),t('.AND.',9),t(delete,1) ],[ delete ],[ 53,'Today' ])).
+rule_i(12,rule([ a(19,[ [ 54 ],msg([ t('"No matching ''Cliente''."',3) ],[ t('ForeignKeyNotFound',3) ]) ]) ],[],[ insert,update,delete ],[ 54 ])).
+rule_i(12,rule([ a(19,[ [ 57 ],msg([ t('"No matching ''País''."',3) ],[ t('ForeignKeyNotFound',3) ]) ]) ],[],[ insert,update,delete ],[ 57 ])).
+rule_i(13,rule([ a(19,[ [ 19 ],msg([ t('"No matching ''Produto''."',3) ],[ t('ForeignKeyNotFound',3) ]) ]) ],[],[ insert,update,delete ],[ 19 ])).
+rule_i(13,rule([ a(19,[ [ 30 ],msg([ t('"No matching ''Categoria ''."',3) ],[ t('ForeignKeyNotFound',3) ]) ]) ],[],[ insert,update,delete ],[ 30 ])).
+ 
+a_i(1,12,b,0,[],[ [],[ a(1,msg([ t('"Field Data is out of range"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t('null(',1),t(53,2),t(')',4),t('.OR.',9),t(53,2),t(>=,10),t('ymdtod(',1),t('1753',3),t(',',7),t('01',3),t(',',7),t('01',3),t(')',4),t(')',4) ] ]).
+a_i(2,12,f,63,[],[ [],[ t('addday(',1),t(53,2),t(',',7),t('(',0),t('5',3),t(')',4),t(')',4),t(';',18) ] ]).
+a_i(3,12,f,65,[],[ [],[ t(62,2),t(*,6),t('0.05',3),t('IF',17),t(62,2),t(>=,10),t('1000',3),t(';',18),t('0',3),t('OTHERWISE',19) ] ]).
+a_i(4,12,f,53,[],[ [ insert ],[ t('Today',23),t('IF',17),t(insert,1),t('AND',9),t('null1(',1),t(53,2),t(')',4),t('AND',9),t('GxBScreen',23),t(=,10),t(0,3),t(';',18) ] ]).
+a_i(5,12,b,2,[],[ [ delete ],[ a(1,[ t('"Não é permitido excluir registros do carrinho de hoje"',3) ]) ],[ t(53,2),t(=,10),t('Today',23),t('.AND.',9),t(delete,1) ] ]).
+a_i(6,13,f,64,[],[ [],[ t('(',0),t(60,2),t(*,6),t(22,2),t(*,6),t('1.05',3),t(')',4),t('IF',17),t(31,2),t(=,10),t('''Joalheria''',3),t(';',18),t('(',0),t(60,2),t(*,6),t(22,2),t(*,6),t('0.9',3),t(')',4),t('IF',17),t(31,2),t(=,10),t('''Entreterimento''',3),t(';',18),t(60,2),t(*,6),t(22,2),t('OTHERWISE',19) ] ]).
+a_i(7,13,f,62,[],[ [ insert,update,delete ],[ t('old(',1),t(62,2),t(')',4),t(+,5),t(64,2),t('IF',17),t(insert,1),t(';',18),t('old(',1),t(62,2),t(')',4),t(+,5),t(64,2),t(-,5),t('old(',1),t(64,2),t(')',4),t('IF',17),t(update,1),t(';',18),t('old(',1),t(62,2),t(')',4),t(-,5),t('old(',1),t(64,2),t(')',4),t('IF',17),t(delete,1),t(';',18) ] ]).
+a_i(8,13,f,65,[],[ [],[ t(62,2),t(*,6),t('0.05',3),t('IF',17),t(62,2),t(>=,10),t('1000',3),t(';',18),t('0',3),t('OTHERWISE',19) ] ]).
+a_i(9,12,t,12,[],[ [ [ [],52,52 ] ],'ICARRINHOCOMPRAS',[] ]).
+a_i(10,12,r,522,[],[ [ [ 12,54,43 ] ],'ICLIENTE',[] ]).
+a_i(11,12,r,523,[],[ [ [ 522,57,1 ] ],'IPAIS',[] ]).
+a_i(12,12,r,2000,[],[ [ [ 12,oe([ t(52,2) ]),52 ] ],'ICARRINHOCOMPRAS',[] ]).
+a_i(13,13,t,13,[],[ [ [ [],52,52 ],[ [],19,19 ] ],'ICARRINHOCOMPRASPRODUTOS',[] ]).
+a_i(14,13,r,6,[],[ [ [ 13,19,19 ] ],'IPRODUTO',[] ]).
+a_i(15,13,r,519,[],[ [ [ 6,30,4 ] ],'ICATEGORIA',[] ]).
+a_i(16,12,f,'GxBScreen',[],[ [],[ t('0',3) ] ]).
+a_i(17,12,f,'Today',[],[ [],[ t('today(',1),t(')',4) ] ]).
+ 
+v_i(b,i,1,53).
+v_i(b,o,1,[]).
+v_i(f,i,2,53).
+v_i(f,o,2,63).
+v_i(f,i,3,62).
+v_i(f,o,3,65).
+v_i(f,i,4,'Today').
+v_i(f,i,4,'GxBScreen').
+v_i(f,o,4,53).
+v_i(b,i,5,53).
+v_i(b,i,5,'Today').
+v_i(b,o,5,[]).
+v_i(f,i,6,60).
+v_i(f,i,6,22).
+v_i(f,i,6,31).
+v_i(f,o,6,64).
+v_i(f,i,7,64).
+v_i(f,o,7,62).
+v_i(f,i,8,62).
+v_i(f,o,8,65).
+v_i(t,i,9,52).
+v_i(t,o,9,53).
+v_i(t,o,9,54).
+v_i(r,i,10,54).
+v_i(r,o,10,55).
+v_i(r,o,10,56).
+v_i(r,o,10,57).
+v_i(r,i,11,57).
+v_i(r,o,11,58).
+v_i(r,i,12,52).
+v_i(r,o,12,62).
+v_i(t,i,13,52).
+v_i(t,i,13,19).
+v_i(t,o,13,60).
+v_i(r,i,14,19).
+v_i(r,o,14,30).
+v_i(r,o,14,20).
+v_i(r,o,14,22).
+v_i(r,o,14,23).
+v_i(r,o,14,40000).
+v_i(r,i,15,30).
+v_i(r,o,15,31).
+v_i(f,i,16,[]).
+v_i(f,o,16,'GxBScreen').
+v_i(f,i,17,[]).
+v_i(f,o,17,'Today').
+ 
+act_info_i(4,[ [ 53 ] ]).
+ 
+ca_i(7,62).
+ca_i(4,53).
+ 
+tbl_to_delete_i(12,[ 13,[ [ 12,52,52 ] ],d,'ICARRINHOCOMPRASPRODUTOS',0,[ 52,19 ],'' ]).
+ 
+ 
+ 
+attri_i(64,[ 'ProdutosPrecoTotal',int,10,2,'ZZZZZZ9.99',0,'Total','',0 ]).
+attri_i(4,[ 'CategoriaId',int,4,0,'ZZZ9',0,'Categoria','',0 ]).
+attri_i(31,[ 'CategoriaProdutoNome',svchar,40,0,'',0,'Categoria ','',0 ]).
+attri_i(30,[ 'CategoriaProdutoId',int,4,0,'ZZZ9',0,'Categoria ','',0 ]).
+attri_i(23,[ 'ProdutoImagem',bits,4,0,'',0,'Imagem','',0 ]).
+attri_i(22,[ 'ProdutoPreco',int,10,2,'ZZZZZZ9.99',0,'Preço','',0 ]).
+attri_i(20,[ 'ProdutoNome',svchar,40,0,'',0,'Produto','',0 ]).
+attri_i(60,[ 'CarrinhoComprasProdutosQuantid',int,4,0,'ZZZ9',0,'Quantidade','',0 ]).
+attri_i(19,[ 'ProdutoId',int,4,0,'ZZZ9',0,'Produto','',0 ]).
+attri_i(62,[ 'CarrinhoComprasPrecoTotal',int,10,2,'ZZZZZZ9.99',0,'Preço total','',0 ]).
+attri_i(58,[ 'ClienteCarrinhoComprasPaisNome',svchar,40,0,'',0,'País','',0 ]).
+attri_i(57,[ 'ClienteCarrinhoComprasPaisId',int,4,0,'ZZZ9',0,'País','',0 ]).
+attri_i(56,[ 'ClienteCarrinhoComprasEndereco',svchar,1024,0,'',0,'Endereço','',0 ]).
+attri_i(55,[ 'ClienteCarrinhoComprasNome',svchar,40,0,'',0,'Cliente','',0 ]).
+attri_i(54,[ 'ClienteCarrinhoComprasId',int,4,0,'ZZZ9',0,'Cliente','',0 ]).
+attri_i(53,[ 'CarrinhoComprasData',date,8,0,'99/99/99',0,'Data','',0 ]).
+attri_i(1,[ 'PaisId',int,4,0,'ZZZ9',0,'País','',0 ]).
+attri_i(43,[ 'ClienteId',int,4,0,'ZZZ9',0,'Cliente ','',0 ]).
+attri_i(65,[ 'CarrinhoComprasPontos',int,10,2,'ZZZZZZ9.99',0,'Carrinho Compras Pontos','',0 ]).
+attri_i(63,[ 'CarrinhoComprasDataEntrega',date,8,0,'99/99/99',0,'Data de entrega','',0 ]).
+attri_i(40000,[ 'ProdutoImagem_GXI',svchar,2048,0,'',0,'',[],0 ]).
+attri_i(52,[ 'CarrinhoComprasId',int,4,0,'ZZZ9',0,'Carrinho compras','',0 ]).
+attri_i('GxBScreen',[ 'Gx_BScreen',int,1,0,'',0,'','',14 ]).
+attri_i('Today',[ 'Gx_date',date,8,0,'99/99/99',1,'','',13 ]).
+attri_i('Gxremove',[ 'GxRemove',int,1,0,'9',0,'Gx Remove','',5 ]).
+attri_i('Trncontextatt',[ 'TrnContextAtt',o('General\UI\TransactionContext.Attribute'),0,0,'',0,'Trn Context Att','',12 ]).
+attri_i('Insert_clientecarrinhocomprasid',[ 'Insert_ClienteCarrinhoComprasId',int,4,0,'ZZZ9',0,'Insert_Cliente Carrinho Compras Id','',11 ]).
+attri_i('Websession',[ 'WebSession',o(websession),4,0,'',0,'Web Session','',10 ]).
+attri_i('Trncontext',[ 'TrnContext',o('General\UI\TransactionContext'),0,0,'',0,'Trn Context','',9 ]).
+attri_i('Isauthorized',[ 'IsAuthorized',boolean,4,0,'',0,'Is Authorized','',8 ]).
+attri_i('Carrinhocomprasid',[ 'CarrinhoComprasId',int,4,0,'ZZZ9',0,'Carrinho Compras Id','',7 ]).
+attri_i('Mode',[ 'Gx_mode',char,3,0,'@!',1,'','',2 ]).
+ 
+table_i(2000,[ 'CarrinhoCompras',[ 62,52 ],'CarrinhoCompras','CarrinhoCompras' ]).
+table_i(523,[ 'Pais',[ 57,58 ],'País','Pais' ]).
+table_i(522,[ 'Cliente',[ 54,55,56,57 ],'Cliente','Cliente' ]).
+table_i(12,[ 'CarrinhoCompras',[ 52,53,54 ],'CarrinhoCompras','CarrinhoCompras' ]).
+table_i(519,[ 'Categoria',[ 30,31 ],'Categoria','Categoria' ]).
+table_i(13,[ 'CarrinhoComprasProdutos',[ 52,19,60 ],'CarrinhoComprasProdutos','CarrinhoComprasProdutos' ]).
+table_i(6,[ 'Produto',[ 19,20,22,23,40000,30 ],'Produto','Produto' ]).
+ 
+index_i(13,[ 'ICARRINHOCOMPRASPRODUTOS',u,[ 52,19 ],'ICarrinhoComprasProdutos' ]).
+index_i(6,[ 'IPRODUTO',u,[ 19 ],'IProduto' ]).
+index_i(519,[ 'ICATEGORIA',u,[ 30 ],'ICategoria' ]).
+index_i(12,[ 'ICARRINHOCOMPRAS',u,[ 52 ],'ICarrinhoCompras' ]).
+index_i(522,[ 'ICLIENTE',u,[ 54 ],'ICliente' ]).
+index_i(523,[ 'IPAIS',u,[ 57 ],'IPais' ]).
+index_i(2000,[ 'ICARRINHOCOMPRAS',u,[ 52 ],'ICarrinhoCompras' ]).
+ 
+lv_i(5,2000,12).
+ 
+ 
+function_i(13,62,no,old,'old(',[ 64 ],4,64,[ 2 ]).
+function_i(13,62,no,old,'old(',[ 62 ],3,62,[ 2 ]).
+function_i(13,62,no,old,'old(',[ 64 ],2,64,[ 2 ]).
+function_i(13,62,no,old,'old(',[ 62 ],1,62,[ 2 ]).
+function_i(13,62,no,old,'old(',[ 62 ],0,62,[ 2 ]).
+ 
+ 
+nav_view_i(2000,[ 62 ],[ 52 ],[ 52 ],[ [ 2000,[ [ 12,oe([ t(52,2) ]),52 ] ] ] ],[ [ [ 13,[ 'sum(',se(64,[ [ 13,60 ],[ 6,22 ],[ 519,31 ] ],[ t('(',0),t(60,2),t(*,6),t(22,2),t(*,6),t('1.05',3),t(')',4),t('IF',17),t(31,2),t(=,10),t('''Joalheria''',3),t(';',18),t('(',0),t(60,2),t(*,6),t(22,2),t(*,6),t('0.9',3),t(')',4),t('IF',17),t(31,2),t(=,10),t('''Entreterimento''',3),t(';',18),t(60,2),t(*,6),t(22,2),t('OTHERWISE',19) ]) ] ],[ 13,52 ] ],n,[ [ 13,many ],[ 6,one ],[ 519,one ] ],[ [ 6,[ [ 13,19,19 ] ] ],[ 519,[ [ 6,30,4 ] ] ] ],[],[ none ],[],[ 52 ],[] ]).
+ 
+ 
+agg_def_i(62,[ t('0',3) ]).
+ 
+for_ver_i(12,13,62,2000,'sum(',[ t(64,2) ],[],[ t('0',3) ]).
+ 
+ 
+ 
+ 
+add_att_i(bits,5,40000,23,'ProdutoImagem_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,5,40001,3,'PaisBandeira_GXI',[ svchar,2048,0,0 ]).
+ 
+upd_i(12,12,i,[ [ 52,53,54 ],[],'ICARRINHOCOMPRAS',[ [ [],52,52 ] ] ]).
+upd_i(12,12,u,[ [ 53,54 ],[],'ICARRINHOCOMPRAS',[] ]).
+upd_i(12,12,d,[ [],[],'ICARRINHOCOMPRAS',[] ]).
+upd_i(13,13,i,[ [ 52,60,19 ],[],'ICARRINHOCOMPRASPRODUTOS',[ [ [],52,52 ],[ [],19,19 ] ] ]).
+upd_i(13,13,u,[ [ 60 ],[],'ICARRINHOCOMPRASPRODUTOS',[] ]).
+upd_i(13,13,d,[ [],[],'ICARRINHOCOMPRASPRODUTOS',[] ]).
+ 
+ 
+ 
+start_i(13,0,0,[ [ [ 52,2,52,= ] ],many ]).
+ 
+end_i(13,0,0,[ [ [ t(52,2),t(=,10),t(52,23) ] ] ]).
+ 
+ 
+map_i(523,a,58,[ 'PaisNome' ]).
+map_i(523,a,57,[ 'PaisId' ]).
+map_i(522,a,57,[ 'PaisClienteId' ]).
+map_i(522,a,56,[ 'ClienteEndereco' ]).
+map_i(522,a,55,[ 'ClienteNome' ]).
+map_i(522,a,54,[ 'ClienteId' ]).
+map_i(519,a,31,[ 'CategoriaNome' ]).
+map_i(519,a,30,[ 'CategoriaId' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(96,[ 'Id' ]).
+dom_info_i(97,[ 'Nome' ]).
+dom_info_i(46,[ 'GeneXus\Address' ]).
+dom_info_i(51,[ 'GeneXus\Phone' ]).
+dom_info_i(48,[ 'GeneXus\Email' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [ 52 ],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,1).
+b_group_i(2,2,lit,0,2,30).
+b_group_i(2,3,lit,0,31,0).
+ 
+b_line_i(1,2,1,cmd,1,[ t('',146,1,0),t('Start',3,1,7) ]).
+b_line_i(28,2,2,cmd,1,[ t('',147,28,0) ]).
+b_line_i(30,2,2,cmd,1,[ t('',146,30,0),t('After Trn',3,30,7) ]).
+b_line_i(32,2,3,cmd,1,[ t('',188,32,0),t(o(1,'NotaFiscalCarrinho'),28,1,2),t(52,2,1,28) ]).
+b_line_i(45,2,3,cmd,1,[ t('',147,45,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+att_prop_i(5,52,'HORIZONTAL_DESCRIPTION','Carrinho compras',d).
+att_prop_i(5,52,'ExternalName','CarrinhoComprasId',d).
+att_prop_i(5,52,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,52,'EmptyAsNull','Yes',d).
+att_prop_i(5,52,idBasedOn,96,v).
+att_prop_i(5,52,'AUTONUMBER','0',d).
+att_prop_i(5,52,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,52,'AttRegEx','',d).
+att_prop_i(5,52,'AttValidationFailedMsg','',d).
+att_prop_i(5,52,'DownloadOffline','0',d).
+att_prop_i(5,52,'VarServiceExtName','',d).
+att_prop_i(5,52,'FullName','CarrinhoComprasId',v).
+att_prop_i(5,53,'HORIZONTAL_DESCRIPTION','Data',d).
+att_prop_i(5,53,'ExternalName','CarrinhoComprasData',d).
+att_prop_i(5,53,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,53,'EmptyAsNull','Yes',d).
+att_prop_i(5,53,idBasedOn,'',d).
+att_prop_i(5,53,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,53,'AttRegEx','',d).
+att_prop_i(5,53,'AttValidationFailedMsg','',d).
+att_prop_i(5,53,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(5,53,'DownloadOffline','0',d).
+att_prop_i(5,53,'VarServiceExtName','',d).
+att_prop_i(5,53,'FullName','CarrinhoComprasData',v).
+att_prop_i(5,54,'HORIZONTAL_DESCRIPTION','Cliente',d).
+att_prop_i(5,54,'ExternalName','ClienteCarrinhoComprasId',d).
+att_prop_i(5,54,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,54,'EmptyAsNull','Yes',d).
+att_prop_i(5,54,idBasedOn,96,d).
+att_prop_i(5,54,'AUTONUMBER','0',d).
+att_prop_i(5,54,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,54,'AttRegEx','',d).
+att_prop_i(5,54,'AttValidationFailedMsg','',d).
+att_prop_i(5,54,'DownloadOffline','0',d).
+att_prop_i(5,54,'VarServiceExtName','',d).
+att_prop_i(5,54,'FullName','ClienteCarrinhoComprasId',v).
+att_prop_i(5,55,'HORIZONTAL_DESCRIPTION','Cliente',d).
+att_prop_i(5,55,'ExternalName','ClienteCarrinhoComprasNome',d).
+att_prop_i(5,55,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,55,'EmptyAsNull','Yes',d).
+att_prop_i(5,55,idBasedOn,97,d).
+att_prop_i(5,55,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,55,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(5,55,'AttRegEx','',d).
+att_prop_i(5,55,'AttValidationFailedMsg','',d).
+att_prop_i(5,55,'DownloadOffline','0',d).
+att_prop_i(5,55,'VarServiceExtName','',d).
+att_prop_i(5,55,'FullName','ClienteCarrinhoComprasNome',v).
+att_prop_i(5,56,'HORIZONTAL_DESCRIPTION','Endereço',d).
+att_prop_i(5,56,'ExternalName','ClienteCarrinhoComprasEndereco',d).
+att_prop_i(5,56,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,56,'EmptyAsNull','Yes',d).
+att_prop_i(5,56,idBasedOn,46,d).
+att_prop_i(5,56,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,56,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(5,56,'AttRegEx','',d).
+att_prop_i(5,56,'AttValidationFailedMsg','',d).
+att_prop_i(5,56,'DownloadOffline','0',d).
+att_prop_i(5,56,'VarServiceExtName','',d).
+att_prop_i(5,56,'FullName','ClienteCarrinhoComprasEndereco',v).
+att_prop_i(5,57,'HORIZONTAL_DESCRIPTION','País',d).
+att_prop_i(5,57,'ExternalName','ClienteCarrinhoComprasPaisId',d).
+att_prop_i(5,57,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,57,'EmptyAsNull','Yes',d).
+att_prop_i(5,57,idBasedOn,96,d).
+att_prop_i(5,57,'AUTONUMBER','0',d).
+att_prop_i(5,57,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,57,'AttRegEx','',d).
+att_prop_i(5,57,'AttValidationFailedMsg','',d).
+att_prop_i(5,57,'DownloadOffline','0',d).
+att_prop_i(5,57,'VarServiceExtName','',d).
+att_prop_i(5,57,'FullName','ClienteCarrinhoComprasPaisId',v).
+att_prop_i(5,58,'HORIZONTAL_DESCRIPTION','País',d).
+att_prop_i(5,58,'ExternalName','ClienteCarrinhoComprasPaisNome',d).
+att_prop_i(5,58,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,58,'EmptyAsNull','Yes',d).
+att_prop_i(5,58,idBasedOn,97,d).
+att_prop_i(5,58,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,58,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(5,58,'AttRegEx','',d).
+att_prop_i(5,58,'AttValidationFailedMsg','',d).
+att_prop_i(5,58,'DownloadOffline','0',d).
+att_prop_i(5,58,'VarServiceExtName','',d).
+att_prop_i(5,58,'FullName','ClienteCarrinhoComprasPaisNome',v).
+att_prop_i(5,62,'HORIZONTAL_DESCRIPTION','Preço total',d).
+att_prop_i(5,62,'ExternalName','CarrinhoComprasPrecoTotal',d).
+att_prop_i(5,62,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,62,idBasedOn,'',d).
+att_prop_i(5,62,'DownloadOffline','0',d).
+att_prop_i(5,62,'VarServiceExtName','',d).
+att_prop_i(5,62,'FullName','CarrinhoComprasPrecoTotal',v).
+att_prop_i(5,63,'HORIZONTAL_DESCRIPTION','Data de entrega',d).
+att_prop_i(5,63,'ExternalName','CarrinhoComprasDataEntrega',d).
+att_prop_i(5,63,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,63,idBasedOn,'',d).
+att_prop_i(5,63,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(5,63,'DownloadOffline','0',d).
+att_prop_i(5,63,'VarServiceExtName','',d).
+att_prop_i(5,63,'FullName','CarrinhoComprasDataEntrega',v).
+att_prop_i(5,65,'HORIZONTAL_DESCRIPTION','Carrinho Compras Pontos',d).
+att_prop_i(5,65,'ExternalName','CarrinhoComprasPontos',d).
+att_prop_i(5,65,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,65,idBasedOn,'',d).
+att_prop_i(5,65,'DownloadOffline','0',d).
+att_prop_i(5,65,'VarServiceExtName','',d).
+att_prop_i(5,65,'FullName','CarrinhoComprasPontos',v).
+att_prop_i(5,19,'HORIZONTAL_DESCRIPTION','Produto',d).
+att_prop_i(5,19,'ExternalName','ProdutoId',d).
+att_prop_i(5,19,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,19,'EmptyAsNull','Yes',d).
+att_prop_i(5,19,idBasedOn,96,v).
+att_prop_i(5,19,'AUTONUMBER','0',d).
+att_prop_i(5,19,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,19,'AttRegEx','',d).
+att_prop_i(5,19,'AttValidationFailedMsg','',d).
+att_prop_i(5,19,'DownloadOffline','0',d).
+att_prop_i(5,19,'VarServiceExtName','',d).
+att_prop_i(5,19,'FullName','ProdutoId',v).
+att_prop_i(5,20,'HORIZONTAL_DESCRIPTION','Produto',d).
+att_prop_i(5,20,'ExternalName','ProdutoNome',d).
+att_prop_i(5,20,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,20,'EmptyAsNull','Yes',d).
+att_prop_i(5,20,idBasedOn,97,v).
+att_prop_i(5,20,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,20,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(5,20,'AttRegEx','',d).
+att_prop_i(5,20,'AttValidationFailedMsg','',d).
+att_prop_i(5,20,'DownloadOffline','0',d).
+att_prop_i(5,20,'VarServiceExtName','',d).
+att_prop_i(5,20,'FullName','ProdutoNome',v).
+att_prop_i(5,22,'HORIZONTAL_DESCRIPTION','Preço',d).
+att_prop_i(5,22,'ExternalName','ProdutoPreco',d).
+att_prop_i(5,22,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,22,'EmptyAsNull','Yes',d).
+att_prop_i(5,22,idBasedOn,'',d).
+att_prop_i(5,22,'AUTONUMBER','0',d).
+att_prop_i(5,22,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,22,'AttRegEx','',d).
+att_prop_i(5,22,'AttValidationFailedMsg','',d).
+att_prop_i(5,22,'DownloadOffline','0',d).
+att_prop_i(5,22,'VarServiceExtName','',d).
+att_prop_i(5,22,'FullName','ProdutoPreco',v).
+att_prop_i(5,23,'HORIZONTAL_DESCRIPTION','Imagem',d).
+att_prop_i(5,23,'ExternalName','ProdutoImagem',d).
+att_prop_i(5,23,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,23,'EmptyAsNull','Yes',d).
+att_prop_i(5,23,'ExternalStorage','-1',d).
+att_prop_i(5,23,idBasedOn,'',d).
+att_prop_i(5,23,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,23,'AttRegEx','',d).
+att_prop_i(5,23,'AttValidationFailedMsg','',d).
+att_prop_i(5,23,'DownloadOffline','0',d).
+att_prop_i(5,23,'VarServiceExtName','',d).
+att_prop_i(5,23,'FullName','ProdutoImagem',v).
+att_prop_i(5,60,'HORIZONTAL_DESCRIPTION','Quantidade',d).
+att_prop_i(5,60,'ExternalName','CarrinhoComprasProdutosQuantidade',d).
+att_prop_i(5,60,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,60,'EmptyAsNull','Yes',d).
+att_prop_i(5,60,idBasedOn,'',d).
+att_prop_i(5,60,'AUTONUMBER','0',d).
+att_prop_i(5,60,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,60,'AttRegEx','',d).
+att_prop_i(5,60,'AttValidationFailedMsg','',d).
+att_prop_i(5,60,'DownloadOffline','0',d).
+att_prop_i(5,60,'VarServiceExtName','',d).
+att_prop_i(5,60,'FullName','CarrinhoComprasProdutosQuantidade',v).
+att_prop_i(5,64,'HORIZONTAL_DESCRIPTION','Total',d).
+att_prop_i(5,64,'ExternalName','ProdutosPrecoTotal',d).
+att_prop_i(5,64,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,64,idBasedOn,'',d).
+att_prop_i(5,64,'DownloadOffline','0',d).
+att_prop_i(5,64,'VarServiceExtName','',d).
+att_prop_i(5,64,'FullName','ProdutosPrecoTotal',v).
+att_prop_i(5,43,'HORIZONTAL_DESCRIPTION','Cliente ',d).
+att_prop_i(5,43,'ExternalName','ClienteId',d).
+att_prop_i(5,43,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,43,'EmptyAsNull','Yes',d).
+att_prop_i(5,43,idBasedOn,96,v).
+att_prop_i(5,43,'AUTONUMBER','0',d).
+att_prop_i(5,43,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,43,'AttRegEx','',d).
+att_prop_i(5,43,'AttValidationFailedMsg','',d).
+att_prop_i(5,43,'DownloadOffline','0',d).
+att_prop_i(5,43,'VarServiceExtName','',d).
+att_prop_i(5,43,'FullName','ClienteId',v).
+att_prop_i(5,1,'HORIZONTAL_DESCRIPTION','País',d).
+att_prop_i(5,1,'ExternalName','PaisId',d).
+att_prop_i(5,1,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,1,'EmptyAsNull','Yes',d).
+att_prop_i(5,1,idBasedOn,96,v).
+att_prop_i(5,1,'AUTONUMBER','0',d).
+att_prop_i(5,1,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,1,'AttRegEx','',d).
+att_prop_i(5,1,'AttValidationFailedMsg','',d).
+att_prop_i(5,1,'DownloadOffline','0',d).
+att_prop_i(5,1,'VarServiceExtName','',d).
+att_prop_i(5,1,'FullName','PaisId',v).
+att_prop_i(5,31,'HORIZONTAL_DESCRIPTION','Categoria ',d).
+att_prop_i(5,31,'ExternalName','CategoriaProdutoNome',d).
+att_prop_i(5,31,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,31,'EmptyAsNull','Yes',d).
+att_prop_i(5,31,idBasedOn,97,d).
+att_prop_i(5,31,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,31,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(5,31,'AttRegEx','',d).
+att_prop_i(5,31,'AttValidationFailedMsg','',d).
+att_prop_i(5,31,'DownloadOffline','0',d).
+att_prop_i(5,31,'VarServiceExtName','',d).
+att_prop_i(5,31,'FullName','CategoriaProdutoNome',v).
+att_prop_i(5,30,'HORIZONTAL_DESCRIPTION','Categoria ',d).
+att_prop_i(5,30,'ExternalName','CategoriaProdutoId',d).
+att_prop_i(5,30,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,30,'EmptyAsNull','Yes',d).
+att_prop_i(5,30,idBasedOn,96,d).
+att_prop_i(5,30,'AUTONUMBER','0',d).
+att_prop_i(5,30,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,30,'AttRegEx','',d).
+att_prop_i(5,30,'AttValidationFailedMsg','',d).
+att_prop_i(5,30,'DownloadOffline','0',d).
+att_prop_i(5,30,'VarServiceExtName','',d).
+att_prop_i(5,30,'FullName','CategoriaProdutoId',v).
+att_prop_i(5,4,'HORIZONTAL_DESCRIPTION','Categoria',d).
+att_prop_i(5,4,'ExternalName','CategoriaId',d).
+att_prop_i(5,4,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,4,'EmptyAsNull','Yes',d).
+att_prop_i(5,4,idBasedOn,96,v).
+att_prop_i(5,4,'AUTONUMBER','0',d).
+att_prop_i(5,4,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,4,'AttRegEx','',d).
+att_prop_i(5,4,'AttValidationFailedMsg','',d).
+att_prop_i(5,4,'DownloadOffline','0',d).
+att_prop_i(5,4,'VarServiceExtName','',d).
+att_prop_i(5,4,'FullName','CategoriaId',v).
+att_prop_i(5,40000,'ExternalName','',d).
+att_prop_i(5,40000,'ExternalNamespace','',d).
+att_prop_i(5,40000,'EmptyAsNull','Yes',d).
+att_prop_i(5,40000,idBasedOn,'',d).
+att_prop_i(5,40000,'AUTONUMBER','0',d).
+att_prop_i(5,40000,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,40000,'AttRegEx','',d).
+att_prop_i(5,40000,'AttValidationFailedMsg','',d).
+att_prop_i(5,40000,'FullName','',v).
+ 
+tbl_prop_i(5,12,'AllDirSuper',[ [ 522,[ 54 ] ] ],v).
+tbl_prop_i(5,6,'AllDirSuper',[ [ 519,[ 30 ] ] ],v).
+tbl_prop_i(5,13,'AllDirSuper',[ [ 6,[ 19 ] ],[ 12,[ 52 ] ] ],v).
+tbl_prop_i(5,2000,'DirSubor',[ [ 13,[ 52 ] ] ],v).
+tbl_prop_i(5,1,'DirSubor',[ [ 6,[ 26 ] ] ],v).
+tbl_prop_i(5,523,'DirSubor',[ [ 6,[ 26 ] ] ],v).
+tbl_prop_i(5,11,'DirSubor',[ [ 12,[ 54 ] ] ],v).
+tbl_prop_i(5,522,'DirSubor',[ [ 12,[ 54 ] ] ],v).
+tbl_prop_i(5,12,'DirSubor',[ [ 13,[ 52 ] ] ],v).
+tbl_prop_i(5,2,'DirSubor',[ [ 6,[ 30 ] ] ],v).
+tbl_prop_i(5,519,'DirSubor',[ [ 6,[ 30 ] ] ],v).
+tbl_prop_i(5,6,'DirSubor',[ [ 13,[ 19 ] ] ],v).
+tbl_prop_i(5,2000,'DirSuper',[ [ 522,[ 54 ] ] ],v).
+tbl_prop_i(5,12,'DirSuper',[ [ 522,[ 54 ] ] ],v).
+tbl_prop_i(5,6,'DirSuper',[ [ 519,[ 30 ] ] ],v).
+tbl_prop_i(5,13,'DirSuper',[ [ 6,[ 19 ] ],[ 12,[ 52 ] ] ],v).
+ 
+tbl_att_prop_i(5,13,60,'AllowNulls',n).
+tbl_att_prop_i(5,6,22,'AllowNulls',n).
+tbl_att_prop_i(5,13,19,'AllowNulls',n).
+tbl_att_prop_i(5,519,31,'AllowNulls',n).
+tbl_att_prop_i(5,6,30,'AllowNulls',n).
+tbl_att_prop_i(5,13,52,'AllowNulls',n).
+tbl_att_prop_i(5,6,19,'AllowNulls',n).
+tbl_att_prop_i(5,6,20,'AllowNulls',n).
+tbl_att_prop_i(5,6,23,'AllowNulls',n).
+tbl_att_prop_i(5,6,40000,'AllowNulls',n).
+tbl_att_prop_i(5,519,30,'AllowNulls',n).
+tbl_att_prop_i(5,12,52,'AllowNulls',n).
+tbl_att_prop_i(5,12,53,'AllowNulls',n).
+tbl_att_prop_i(5,12,54,'AllowNulls',n).
+tbl_att_prop_i(5,522,54,'AllowNulls',n).
+tbl_att_prop_i(5,522,55,'AllowNulls',n).
+tbl_att_prop_i(5,522,56,'AllowNulls',n).
+tbl_att_prop_i(5,522,57,'AllowNulls',n).
+tbl_att_prop_i(5,523,57,'AllowNulls',n).
+tbl_att_prop_i(5,523,58,'AllowNulls',n).
+tbl_att_prop_i(5,2000,52,'AllowNulls',n).
+ 
+var_prop_i(5,'Carrinhocomprasid',idBasedOn,'',v).
+var_prop_i(5,'Insert_clientecarrinhocomprasid',idBasedOn,'',v).
+ 
+i_tbl_best_trn(12,[ 13,1,'CarrinhoCompras','Carrinho de compras',[ 55,56,57,58,62,63,65 ] ]).
+i_tbl_best_trn(13,[ 13,2,'CarrinhoCompras','Carrinho de compras',[] ]).
+i_tbl_best_trn(523,[ 1,1,'Pais','País',[] ]).
+i_tbl_best_trn(2000,[ 13,1,'CarrinhoCompras','Carrinho de compras',[] ]).
+i_tbl_best_trn(6,[ 6,1,'Produto','Produto',[ 31 ] ]).
+i_tbl_best_trn(519,[ 2,1,'Categoria','Categoria',[] ]).
+ 
+ 
+a_alias_i(30,'CategoriaProdutoId').
+a_alias_i(31,'CategoriaProdutoNome').
+a_alias_i([ 'sum(',se(64,[ [ 13,60 ],[ 6,22 ],[ 519,31 ] ],[ t('(',0),t(60,2),t(*,6),t(22,2),t(*,6),t('1.05',3),t(')',4),t('IF',17),t(31,2),t(=,10),t('''Joalheria''',3),t(';',18),t('(',0),t(60,2),t(*,6),t(22,2),t(*,6),t('0.9',3),t(')',4),t('IF',17),t(31,2),t(=,10),t('''Entreterimento''',3),t(';',18),t(60,2),t(*,6),t(22,2),t('OTHERWISE',19) ]) ],'CarrinhoComprasPrecoTotal').
+a_alias_i(se(62,[ [ 2000,62 ] ],[ t('coalesce(',1),t(62,2),t(',',7),t('0',3),t(')',4) ]),'CarrinhoComprasPrecoTotal').
+a_alias_i(54,'ClienteCarrinhoComprasId').
+a_alias_i(55,'ClienteCarrinhoComprasNome').
+a_alias_i(56,'ClienteCarrinhoComprasEndereco').
+a_alias_i(57,'ClienteCarrinhoComprasPaisId').
+a_alias_i(58,'ClienteCarrinhoComprasPaisNome').
+ 
+trn_level_i(12,[ [ 52,53,54,55,56,57,58,62,63,65 ],'CarrinhoCompras','Carrinho de compras','CarrinhoCompras','',53 ]).
+trn_level_i(13,[ [ 19,20,22,23,40000,60,64 ],'Produtos','Produtos','Produtos','',60 ]).
+ 
+struct_dt_i([ 26,63,0 ],name,'General\UI\TransactionContext').
+struct_dt_i([ 26,63,0 ],namespace,'LojaAnnaLaisa1').
+struct_dt_i([ 26,63,0 ],'ObjName','TransactionContext').
+struct_dt_i([ 26,63,0 ],'ObjDesc','Transaction Context').
+struct_dt_i([ 26,63,0 ],'ExternalName','TransactionContext').
+struct_dt_i([ 26,63,0 ],'ExternalNamespace','LojaAnnaLaisa1').
+struct_dt_i([ 26,63,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,63,97 ],name,'Attribute').
+struct_dt_i([ 26,63,97 ],namespace,'LojaAnnaLaisa1.TransactionContext').
+struct_dt_i([ 0,13,0 ],name,'CarrinhoCompras').
+struct_dt_i([ 0,13,0 ],namespace,'LojaAnnaLaisa1').
+struct_dt_i([ 0,13,0 ],significantName,'CarrinhoCompras').
+struct_dt_i([ 0,13,0 ],'ObjName','CarrinhoCompras').
+struct_dt_i([ 0,13,0 ],'ObjDesc','Carrinho de compras').
+struct_dt_i([ 0,13,0 ],'ExternalName','CarrinhoCompras').
+struct_dt_i([ 0,13,0 ],'ExternalNamespace','LojaAnnaLaisa1').
+struct_dt_i([ 0,13,0 ],key,[ 52 ]).
+struct_dt_i([ 0,13,0 ],lvl,12).
+struct_dt_i([ 0,13,[ 19,52 ] ],name,'Produtos').
+struct_dt_i([ 0,13,[ 19,52 ] ],namespace,'LojaAnnaLaisa1.CarrinhoCompras').
+struct_dt_i([ 0,13,[ 19,52 ] ],lvl,13).
+struct_dt_i([ 26,13,0 ],name,'GeneXus\Common\Messages').
+struct_dt_i([ 26,13,0 ],namespace,'GeneXus').
+struct_dt_i([ 26,13,0 ],'ObjName','Messages').
+struct_dt_i([ 26,13,0 ],'ObjDesc','Messages').
+struct_dt_i([ 26,13,0 ],'ExternalName','Messages').
+struct_dt_i([ 26,13,0 ],'ExternalNamespace','GeneXus').
+struct_dt_i([ 26,13,0 ],collection,'True').
+struct_dt_i([ 26,13,0 ],datatype,[ 26,13,30 ]).
+struct_dt_i([ 26,13,0 ],'CollectionItemName','Message').
+struct_dt_i([ 26,13,0 ],'XmlName','').
+struct_dt_i([ 26,13,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,13,0 ],'XmlNamespace','').
+struct_dt_i([ 26,13,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,13,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,13,0 ],'JsonName','').
+struct_dt_i([ 26,13,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,13,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,13,0 ],isexternal,'True').
+struct_dt_i([ 26,13,30 ],name,'Message').
+struct_dt_i([ 26,13,30 ],namespace,'GeneXus.Messages').
+struct_dt_i([ 26,63,0 ],fullname,'General\UI\TransactionContext').
+struct_dt_i([ 26,63,97 ],fullname,'General\UI\TransactionContext.Attribute').
+struct_dt_i([ 0,13,0 ],fullname,'CarrinhoCompras').
+struct_dt_i([ 0,13,[ 19,52 ] ],fullname,'CarrinhoCompras.Produtos').
+struct_dt_i([ 26,13,0 ],fullname,'GeneXus\Common\Messages').
+struct_dt_i([ 26,13,30 ],fullname,'GeneXus\Common\Messages.Message').
+ 
+struct_dt_elem_i([ 26,63,0 ],1,name,'Callerobject').
+struct_dt_elem_i([ 26,63,0 ],1,camelname,'CallerObject').
+struct_dt_elem_i([ 26,63,0 ],1,basedon,56).
+struct_dt_elem_i([ 26,63,0 ],1,length,256).
+struct_dt_elem_i([ 26,63,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,63,0 ],1,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,63,0 ],1,pic,'').
+struct_dt_elem_i([ 26,63,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,63,0 ],1,'ExternalName','CallerObject').
+struct_dt_elem_i([ 26,63,0 ],1,'ExternalNamespace','LojaAnnaLaisa1').
+struct_dt_elem_i([ 26,63,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,63,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,63,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,63,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,63,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,63,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,63,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,63,0 ],2,name,'Callerondelete').
+struct_dt_elem_i([ 26,63,0 ],2,camelname,'CallerOnDelete').
+struct_dt_elem_i([ 26,63,0 ],2,length,4).
+struct_dt_elem_i([ 26,63,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,63,0 ],2,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,63,0 ],2,pic,'').
+struct_dt_elem_i([ 26,63,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,63,0 ],2,'ExternalName','CallerOnDelete').
+struct_dt_elem_i([ 26,63,0 ],2,'ExternalNamespace','LojaAnnaLaisa1').
+struct_dt_elem_i([ 26,63,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,63,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,63,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,63,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,63,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,63,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,63,0 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,63,0 ],3,name,'Callerurl').
+struct_dt_elem_i([ 26,63,0 ],3,camelname,'CallerURL').
+struct_dt_elem_i([ 26,63,0 ],3,basedon,35).
+struct_dt_elem_i([ 26,63,0 ],3,length,1000).
+struct_dt_elem_i([ 26,63,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,63,0 ],3,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,63,0 ],3,pic,'').
+struct_dt_elem_i([ 26,63,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,63,0 ],3,'ExternalName','CallerURL').
+struct_dt_elem_i([ 26,63,0 ],3,'ExternalNamespace','LojaAnnaLaisa1').
+struct_dt_elem_i([ 26,63,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,63,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,63,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,63,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,63,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,63,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,63,0 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,63,0 ],4,name,'Transactionname').
+struct_dt_elem_i([ 26,63,0 ],4,camelname,'TransactionName').
+struct_dt_elem_i([ 26,63,0 ],4,basedon,56).
+struct_dt_elem_i([ 26,63,0 ],4,length,256).
+struct_dt_elem_i([ 26,63,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,63,0 ],4,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,63,0 ],4,pic,'').
+struct_dt_elem_i([ 26,63,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,63,0 ],4,'ExternalName','TransactionName').
+struct_dt_elem_i([ 26,63,0 ],4,'ExternalNamespace','LojaAnnaLaisa1').
+struct_dt_elem_i([ 26,63,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,63,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,63,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,63,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,63,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,63,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,63,0 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,63,0 ],5,name,'Attributes').
+struct_dt_elem_i([ 26,63,0 ],5,camelname,'Attributes').
+struct_dt_elem_i([ 26,63,0 ],5,type,[ [ 26,63,97 ],0,0 ]).
+struct_dt_elem_i([ 26,63,0 ],5,pic,'').
+struct_dt_elem_i([ 26,63,0 ],5,collection,'True').
+struct_dt_elem_i([ 26,63,0 ],5,'ObjName','Attributes').
+struct_dt_elem_i([ 26,63,0 ],5,'ObjDesc','Attributes').
+struct_dt_elem_i([ 26,63,0 ],5,'CollectionItemName','Attribute').
+struct_dt_elem_i([ 26,63,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,63,0 ],5,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,63,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,63,0 ],5,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,63,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,63,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,63,0 ],5,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,63,0 ],5,'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,63,97 ],1,name,'Attributename').
+struct_dt_elem_i([ 26,63,97 ],1,camelname,'AttributeName').
+struct_dt_elem_i([ 26,63,97 ],1,length,128).
+struct_dt_elem_i([ 26,63,97 ],1,decimals,0).
+struct_dt_elem_i([ 26,63,97 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,63,97 ],1,pic,'').
+struct_dt_elem_i([ 26,63,97 ],1,collection,'False').
+struct_dt_elem_i([ 26,63,97 ],1,'ExternalName','AttributeName').
+struct_dt_elem_i([ 26,63,97 ],1,'ExternalNamespace','LojaAnnaLaisa1').
+struct_dt_elem_i([ 26,63,97 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,63,97 ],1,'XmlName','').
+struct_dt_elem_i([ 26,63,97 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,63,97 ],1,soaptype,'').
+struct_dt_elem_i([ 26,63,97 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,63,97 ],1,'JsonName','').
+struct_dt_elem_i([ 26,63,97 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,63,97 ],2,name,'Attributevalue').
+struct_dt_elem_i([ 26,63,97 ],2,camelname,'AttributeValue').
+struct_dt_elem_i([ 26,63,97 ],2,length,1000).
+struct_dt_elem_i([ 26,63,97 ],2,decimals,0).
+struct_dt_elem_i([ 26,63,97 ],2,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,63,97 ],2,pic,'').
+struct_dt_elem_i([ 26,63,97 ],2,collection,'False').
+struct_dt_elem_i([ 26,63,97 ],2,'ExternalName','AttributeValue').
+struct_dt_elem_i([ 26,63,97 ],2,'ExternalNamespace','LojaAnnaLaisa1').
+struct_dt_elem_i([ 26,63,97 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,63,97 ],2,'XmlName','').
+struct_dt_elem_i([ 26,63,97 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,63,97 ],2,soaptype,'').
+struct_dt_elem_i([ 26,63,97 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,63,97 ],2,'JsonName','').
+struct_dt_elem_i([ 26,63,97 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 0,13,0 ],1,name,'Carrinhocomprasid').
+struct_dt_elem_i([ 0,13,0 ],1,camelname,'CarrinhoComprasId').
+struct_dt_elem_i([ 0,13,0 ],1,basedon,96).
+struct_dt_elem_i([ 0,13,0 ],1,length,4).
+struct_dt_elem_i([ 0,13,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,13,0 ],1,sign,0).
+struct_dt_elem_i([ 0,13,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,13,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 0,13,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,13,0 ],1,attributeid,'52').
+struct_dt_elem_i([ 0,13,0 ],1,'ExternalName','CarrinhoComprasId').
+struct_dt_elem_i([ 0,13,0 ],1,'ExternalNamespace','LojaAnnaLaisa1').
+struct_dt_elem_i([ 0,13,0 ],2,name,'Carrinhocomprasdata').
+struct_dt_elem_i([ 0,13,0 ],2,camelname,'CarrinhoComprasData').
+struct_dt_elem_i([ 0,13,0 ],2,length,8).
+struct_dt_elem_i([ 0,13,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,13,0 ],2,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 0,13,0 ],2,pic,'99/99/99').
+struct_dt_elem_i([ 0,13,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,13,0 ],2,attributeid,'53').
+struct_dt_elem_i([ 0,13,0 ],2,'ExternalName','CarrinhoComprasData').
+struct_dt_elem_i([ 0,13,0 ],2,'ExternalNamespace','LojaAnnaLaisa1').
+struct_dt_elem_i([ 0,13,0 ],3,name,'Clientecarrinhocomprasid').
+struct_dt_elem_i([ 0,13,0 ],3,camelname,'ClienteCarrinhoComprasId').
+struct_dt_elem_i([ 0,13,0 ],3,basedon,96).
+struct_dt_elem_i([ 0,13,0 ],3,length,4).
+struct_dt_elem_i([ 0,13,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,13,0 ],3,sign,0).
+struct_dt_elem_i([ 0,13,0 ],3,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,13,0 ],3,pic,'ZZZ9').
+struct_dt_elem_i([ 0,13,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,13,0 ],3,attributeid,'54').
+struct_dt_elem_i([ 0,13,0 ],3,'ExternalName','ClienteCarrinhoComprasId').
+struct_dt_elem_i([ 0,13,0 ],3,'ExternalNamespace','LojaAnnaLaisa1').
+struct_dt_elem_i([ 0,13,0 ],4,name,'Clientecarrinhocomprasnome').
+struct_dt_elem_i([ 0,13,0 ],4,camelname,'ClienteCarrinhoComprasNome').
+struct_dt_elem_i([ 0,13,0 ],4,basedon,97).
+struct_dt_elem_i([ 0,13,0 ],4,length,40).
+struct_dt_elem_i([ 0,13,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,13,0 ],4,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,13,0 ],4,pic,'').
+struct_dt_elem_i([ 0,13,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,13,0 ],4,attributeid,'55').
+struct_dt_elem_i([ 0,13,0 ],4,'ExternalName','ClienteCarrinhoComprasNome').
+struct_dt_elem_i([ 0,13,0 ],4,'ExternalNamespace','LojaAnnaLaisa1').
+struct_dt_elem_i([ 0,13,0 ],5,name,'Clientecarrinhocomprasendereco').
+struct_dt_elem_i([ 0,13,0 ],5,camelname,'ClienteCarrinhoComprasEndereco').
+struct_dt_elem_i([ 0,13,0 ],5,basedon,46).
+struct_dt_elem_i([ 0,13,0 ],5,length,1024).
+struct_dt_elem_i([ 0,13,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,13,0 ],5,type,[ 13,1024,0 ]).
+struct_dt_elem_i([ 0,13,0 ],5,pic,'').
+struct_dt_elem_i([ 0,13,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,13,0 ],5,attributeid,'56').
+struct_dt_elem_i([ 0,13,0 ],5,'ExternalName','ClienteCarrinhoComprasEndereco').
+struct_dt_elem_i([ 0,13,0 ],5,'ExternalNamespace','LojaAnnaLaisa1').
+struct_dt_elem_i([ 0,13,0 ],6,name,'Clientecarrinhocompraspaisid').
+struct_dt_elem_i([ 0,13,0 ],6,camelname,'ClienteCarrinhoComprasPaisId').
+struct_dt_elem_i([ 0,13,0 ],6,basedon,96).
+struct_dt_elem_i([ 0,13,0 ],6,length,4).
+struct_dt_elem_i([ 0,13,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,13,0 ],6,sign,0).
+struct_dt_elem_i([ 0,13,0 ],6,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,13,0 ],6,pic,'ZZZ9').
+struct_dt_elem_i([ 0,13,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,13,0 ],6,attributeid,'57').
+struct_dt_elem_i([ 0,13,0 ],6,'ExternalName','ClienteCarrinhoComprasPaisId').
+struct_dt_elem_i([ 0,13,0 ],6,'ExternalNamespace','LojaAnnaLaisa1').
+struct_dt_elem_i([ 0,13,0 ],7,name,'Clientecarrinhocompraspaisnome').
+struct_dt_elem_i([ 0,13,0 ],7,camelname,'ClienteCarrinhoComprasPaisNome').
+struct_dt_elem_i([ 0,13,0 ],7,basedon,97).
+struct_dt_elem_i([ 0,13,0 ],7,length,40).
+struct_dt_elem_i([ 0,13,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,13,0 ],7,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,13,0 ],7,pic,'').
+struct_dt_elem_i([ 0,13,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,13,0 ],7,attributeid,'58').
+struct_dt_elem_i([ 0,13,0 ],7,'ExternalName','ClienteCarrinhoComprasPaisNome').
+struct_dt_elem_i([ 0,13,0 ],7,'ExternalNamespace','LojaAnnaLaisa1').
+struct_dt_elem_i([ 0,13,0 ],8,name,'Carrinhocomprasprecototal').
+struct_dt_elem_i([ 0,13,0 ],8,camelname,'CarrinhoComprasPrecoTotal').
+struct_dt_elem_i([ 0,13,0 ],8,length,10).
+struct_dt_elem_i([ 0,13,0 ],8,decimals,2).
+struct_dt_elem_i([ 0,13,0 ],8,sign,0).
+struct_dt_elem_i([ 0,13,0 ],8,type,[ 4,10,2 ]).
+struct_dt_elem_i([ 0,13,0 ],8,pic,'ZZZZZZ9.99').
+struct_dt_elem_i([ 0,13,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,13,0 ],8,attributeid,'62').
+struct_dt_elem_i([ 0,13,0 ],8,'ExternalName','CarrinhoComprasPrecoTotal').
+struct_dt_elem_i([ 0,13,0 ],8,'ExternalNamespace','LojaAnnaLaisa1').
+struct_dt_elem_i([ 0,13,0 ],9,name,'Carrinhocomprasdataentrega').
+struct_dt_elem_i([ 0,13,0 ],9,camelname,'CarrinhoComprasDataEntrega').
+struct_dt_elem_i([ 0,13,0 ],9,length,8).
+struct_dt_elem_i([ 0,13,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,13,0 ],9,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 0,13,0 ],9,pic,'99/99/99').
+struct_dt_elem_i([ 0,13,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,13,0 ],9,attributeid,'63').
+struct_dt_elem_i([ 0,13,0 ],9,'ExternalName','CarrinhoComprasDataEntrega').
+struct_dt_elem_i([ 0,13,0 ],9,'ExternalNamespace','LojaAnnaLaisa1').
+struct_dt_elem_i([ 0,13,0 ],10,name,'Carrinhocompraspontos').
+struct_dt_elem_i([ 0,13,0 ],10,camelname,'CarrinhoComprasPontos').
+struct_dt_elem_i([ 0,13,0 ],10,length,10).
+struct_dt_elem_i([ 0,13,0 ],10,decimals,2).
+struct_dt_elem_i([ 0,13,0 ],10,sign,0).
+struct_dt_elem_i([ 0,13,0 ],10,type,[ 4,10,2 ]).
+struct_dt_elem_i([ 0,13,0 ],10,pic,'ZZZZZZ9.99').
+struct_dt_elem_i([ 0,13,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,13,0 ],10,attributeid,'65').
+struct_dt_elem_i([ 0,13,0 ],10,'ExternalName','CarrinhoComprasPontos').
+struct_dt_elem_i([ 0,13,0 ],10,'ExternalNamespace','LojaAnnaLaisa1').
+struct_dt_elem_i([ 0,13,0 ],11,name,'Produtos').
+struct_dt_elem_i([ 0,13,0 ],11,camelname,'Produtos').
+struct_dt_elem_i([ 0,13,0 ],11,type,[ [ 0,13,[ 19,52 ] ],0,0 ]).
+struct_dt_elem_i([ 0,13,0 ],11,pic,'').
+struct_dt_elem_i([ 0,13,0 ],11,collection,'True').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],1,name,'Produtoid').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],1,camelname,'ProdutoId').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],1,basedon,96).
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],1,length,4).
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],1,decimals,0).
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],1,sign,0).
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],1,collection,'False').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],1,attributeid,'19').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],1,'ExternalName','ProdutoId').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],1,'ExternalNamespace','LojaAnnaLaisa1').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],2,name,'Produtonome').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],2,camelname,'ProdutoNome').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],2,basedon,97).
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],2,length,40).
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],2,decimals,0).
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],2,pic,'').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],2,collection,'False').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],2,attributeid,'20').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],2,'ExternalName','ProdutoNome').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],2,'ExternalNamespace','LojaAnnaLaisa1').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],3,name,'Produtopreco').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],3,camelname,'ProdutoPreco').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],3,length,10).
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],3,decimals,2).
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],3,sign,0).
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],3,type,[ 4,10,2 ]).
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],3,pic,'ZZZZZZ9.99').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],3,collection,'False').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],3,attributeid,'22').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],3,'ExternalName','ProdutoPreco').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],3,'ExternalNamespace','LojaAnnaLaisa1').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],4,name,'Produtoimagem').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],4,camelname,'ProdutoImagem').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],4,length,4).
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],4,decimals,0).
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],4,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],4,pic,'').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],4,collection,'False').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],4,attributeid,'23').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],4,'ExternalName','ProdutoImagem').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],4,'ExternalNamespace','LojaAnnaLaisa1').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],5,name,'Produtoimagem_gxi').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],5,camelname,'ProdutoImagem_GXI').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],5,collection,'False').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],5,isadd,'True').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],5,length,2048).
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],5,decimals,0).
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],5,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],6,name,'Carrinhocomprasprodutosquantidade').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],6,camelname,'CarrinhoComprasProdutosQuantidade').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],6,length,4).
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],6,decimals,0).
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],6,sign,0).
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],6,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],6,pic,'ZZZ9').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],6,collection,'False').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],6,attributeid,'60').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],6,'ExternalName','CarrinhoComprasProdutosQuantidade').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],6,'ExternalNamespace','LojaAnnaLaisa1').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],7,name,'Produtosprecototal').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],7,camelname,'ProdutosPrecoTotal').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],7,length,10).
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],7,decimals,2).
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],7,sign,0).
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],7,type,[ 4,10,2 ]).
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],7,pic,'ZZZZZZ9.99').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],7,collection,'False').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],7,attributeid,'64').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],7,'ExternalName','ProdutosPrecoTotal').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],7,'ExternalNamespace','LojaAnnaLaisa1').
+struct_dt_elem_i([ 26,13,30 ],1,name,'Id').
+struct_dt_elem_i([ 26,13,30 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,13,30 ],1,length,128).
+struct_dt_elem_i([ 26,13,30 ],1,decimals,0).
+struct_dt_elem_i([ 26,13,30 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,13,30 ],1,pic,'').
+struct_dt_elem_i([ 26,13,30 ],1,collection,'False').
+struct_dt_elem_i([ 26,13,30 ],1,'ExternalName','Id').
+struct_dt_elem_i([ 26,13,30 ],1,'ExternalNamespace','LojaAnnaLaisa1').
+struct_dt_elem_i([ 26,13,30 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,13,30 ],1,'XmlName','').
+struct_dt_elem_i([ 26,13,30 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,30 ],1,soaptype,'').
+struct_dt_elem_i([ 26,13,30 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,13,30 ],1,'JsonName','').
+struct_dt_elem_i([ 26,13,30 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,13,30 ],2,name,'Type').
+struct_dt_elem_i([ 26,13,30 ],2,camelname,'Type').
+struct_dt_elem_i([ 26,13,30 ],2,basedon,53).
+struct_dt_elem_i([ 26,13,30 ],2,length,2).
+struct_dt_elem_i([ 26,13,30 ],2,decimals,0).
+struct_dt_elem_i([ 26,13,30 ],2,sign,0).
+struct_dt_elem_i([ 26,13,30 ],2,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 26,13,30 ],2,pic,'Z9').
+struct_dt_elem_i([ 26,13,30 ],2,collection,'False').
+struct_dt_elem_i([ 26,13,30 ],2,'ExternalName','Type').
+struct_dt_elem_i([ 26,13,30 ],2,'ExternalNamespace','LojaAnnaLaisa1').
+struct_dt_elem_i([ 26,13,30 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,13,30 ],2,'XmlName','').
+struct_dt_elem_i([ 26,13,30 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,30 ],2,soaptype,'').
+struct_dt_elem_i([ 26,13,30 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,13,30 ],2,'JsonName','').
+struct_dt_elem_i([ 26,13,30 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,13,30 ],3,name,'Description').
+struct_dt_elem_i([ 26,13,30 ],3,camelname,'Description').
+struct_dt_elem_i([ 26,13,30 ],3,length,256).
+struct_dt_elem_i([ 26,13,30 ],3,decimals,0).
+struct_dt_elem_i([ 26,13,30 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,13,30 ],3,pic,'').
+struct_dt_elem_i([ 26,13,30 ],3,collection,'False').
+struct_dt_elem_i([ 26,13,30 ],3,'ExternalName','Description').
+struct_dt_elem_i([ 26,13,30 ],3,'ExternalNamespace','LojaAnnaLaisa1').
+struct_dt_elem_i([ 26,13,30 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,13,30 ],3,'XmlName','').
+struct_dt_elem_i([ 26,13,30 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,30 ],3,soaptype,'').
+struct_dt_elem_i([ 26,13,30 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,13,30 ],3,'JsonName','').
+struct_dt_elem_i([ 26,13,30 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,63,0 ],3,pic,'99/99/99').
+struct_dt_elem_i([ 26,13,30 ],2,pic,'99/99/99').
+struct_dt_elem_i([ 0,13,[ 19,52 ] ],5,attributeid,'40000').
+ 
+ 
+ 
+ 
+ 
+sub_info_i(146,'Start',1,28,[ [],[] ]).
+sub_info_i(146,'After Trn',30,45,[ [ 52 ],[ 52 ] ]).
+ 
+pgm_parm_i(proc,15,'NOTAFISCALCARRINHO',[ [ int,4,0,0 ] ],[ [ 'CarrinhoComprasId',inout,[] ] ]).
+ 
+pgm_callprotocol_i(trn,13,'CARRINHOCOMPRAS_BC','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,15,'NOTAFISCALCARRINHO','HTTP','Unsecure').
+ 
+ 
+pgm_main_info_i(proc,15,'NOTAFISCALCARRINHO',[ 41,'ANOTAFISCALCARRINHO','','','','','HTTP' ]).
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

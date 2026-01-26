@@ -1,0 +1,10 @@
+﻿<ConnectionInformation>
+	<DBName>GX_KB_LojaAnnaLaisa1</DBName>
+	<IntegratedSecurity>True</IntegratedSecurity>
+	<ServerInstance>NOTEBOOKLYDIA\SQLEXPRESS</ServerInstance>
+	<CreateDbInKbFolder>True</CreateDbInKbFolder>
+	<Directory>C:\KBs\LojaAnnaLaisa1</Directory>
+	<DataFile>GX_KB_LojaAnnaLaisa1.mdf</DataFile>
+	<LogFile>GX_KB_LojaAnnaLaisa1_log.ldf</LogFile>
+	<HostName>NOTEBOOKLYDIA</HostName>
+</ConnectionInformation>

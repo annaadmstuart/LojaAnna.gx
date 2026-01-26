@@ -1,0 +1,10 @@
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\viewcategoria.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\viewcategoria.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewcategoria\obj\Release\net6.0\viewcategoria.csproj.AssemblyReference.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewcategoria\obj\Release\net6.0\viewcategoria.GeneratedMSBuildEditorConfig.editorconfig
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewcategoria\obj\Release\net6.0\viewcategoria.csproj.CoreCompileInputs.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewcategoria\obj\Release\net6.0\viewcategoria.csproj.CopyComplete
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewcategoria\obj\Release\net6.0\viewcategoria.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewcategoria\obj\Release\net6.0\refint\viewcategoria.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewcategoria\obj\Release\net6.0\viewcategoria.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewcategoria\obj\Release\net6.0\ref\viewcategoria.dll

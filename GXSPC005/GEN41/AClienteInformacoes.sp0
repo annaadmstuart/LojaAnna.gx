@@ -1,0 +1,439 @@
+spec_i([ proc,17,'Cliente Informações','ClienteInformacoes',78,eng,'18_0_0-166471' ]).
+ 
+struct_i(2,1,[],[]).
+struct_i(3,2,[ 46,47,45,44 ],[]).
+ 
+level_i(2,[ 11,[ [ 11,many ] ],[],[],[ [ [ 11 ],[ 46,47,45,44,43 ] ] ],[ [ [ 11 ],[] ] ],[ 43 ],'ICLIENTE',[],[] ]).
+level_i(3,[ 12,[ [ 12,many ] ],[],[],[ [ [ 12 ],[ 53,54 ] ] ],[ [ [ 12 ],[] ] ],[ 54 ],'ICARRINHOCOMPRAS1',[ 12,[ [ [],'Clienteid',54 ] ] ],[] ]).
+ 
+tw_i(2,[]).
+tw_i(3,[]).
+ 
+lwi_i(2,[ [] ]).
+lwi_i(3,[ [] ]).
+ 
+cond_constraint_i(3,[ [ t(53,2),t(>=,10),t('Datainicio',23) ],[ 53 ],[ t('.NOT.',8),t('null(',1),t('Datainicio',23),t(')',4) ],[] ]).
+cond_constraint_i(3,[ [ t(53,2),t(<=,10),t('Datainicio',23) ],[ 53 ],[ t('.NOT.',8),t('null(',1),t('Datainicio',23),t(')',4) ],[] ]).
+ 
+ 
+ 
+ta_i(2,[ [ [ 11,46 ],[ 11,47 ],[ 11,45 ],[ 11,44 ],[ 11,43 ] ] ]).
+ta_i(3,[ [ [ 12,53 ],[ 12,54 ] ] ]).
+ 
+las_i(2,[ [ 46,47,45,44,43 ] ]).
+las_i(3,[ [ 53,54 ] ]).
+ 
+lac_i(2,[ [] ]).
+lac_i(3,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD','')).
+rule_i(0,datastore(1,'USER_ID','')).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','NOTEBOOKLYDIA\SQLEXPRESS')).
+rule_i(0,datastore(1,'CS_DBNAME','LOJALAÃSAANNA777')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','ClienteInformacoes')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('AppGenerator','1')).
+rule_i(0,prop('AppLocation','')).
+rule_i(0,prop('AppIcon','')).
+rule_i(0,prop('AppTitle','')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(102,'LojaAnnaLaisa'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','HTTP')).
+rule_i(0,prop('IsMain','-1')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'Pdfs'))).
+rule_i(0,prop('ObjDesc','Cliente Informações')).
+rule_i(0,prop('ObjName','ClienteInformacoes')).
+rule_i(0,maingen(41)).
+rule_i(0,prop('PGMTYPE',main)).
+rule_i(0,parm([ 'Datainicio','Datafim' ],[])).
+rule_i(0,parmio([ [ 'Datainicio',inout ],[ 'Datafim',inout ] ])).
+rule_i(0,output_file(t('ClienteInformacoes',3),t(pdf,3))).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Line',[],[ [],[ t(0,3) ] ]).
+a_i(2,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(3,3,t,12,[],[ [ [ [],'Clienteid',54 ] ],'ICARRINHOCOMPRAS1',[] ]).
+a_i(4,2,t,11,[],[ [],'ICLIENTE',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Line').
+v_i(f,i,2,[]).
+v_i(f,o,2,'Err').
+v_i(t,i,3,'Clienteid').
+v_i(t,o,3,53).
+v_i(t,o,3,54).
+v_i(t,i,4,[]).
+v_i(t,o,4,46).
+v_i(t,o,4,47).
+v_i(t,o,4,45).
+v_i(t,o,4,44).
+v_i(t,o,4,43).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',17 ]).
+attri_i(52,[ 'CarrinhoComprasId',int,4,0,'ZZZ9',0,'Carrinho compras','',0 ]).
+attri_i(53,[ 'CarrinhoComprasData',date,8,0,'99/99/99',0,'Data','',0 ]).
+attri_i('Page',[ 'Gx_page',int,6,0,'ZZZZZ9',0,'Page number','',16 ]).
+attri_i('Line',[ 'Gx_line',int,6,0,'ZZZZZ9',0,'Line number','',15 ]).
+attri_i(43,[ 'ClienteId',int,4,0,'ZZZ9',0,'Cliente ','',0 ]).
+attri_i(46,[ 'ClienteTelefone',char,20,0,'',0,'Telefone','',0 ]).
+attri_i(47,[ 'ClienteEmail',svchar,100,0,'',0,'Email','',0 ]).
+attri_i(45,[ 'ClienteEndereco',svchar,1024,0,'',0,'Endereço','',0 ]).
+attri_i(44,[ 'ClienteNome',svchar,40,0,'',0,'Nome','',0 ]).
+attri_i(54,[ 'ClienteCarrinhoComprasId',int,4,0,'ZZZ9',0,'Cliente','',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',12 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',11 ]).
+attri_i('Clienteid',[ 'ClienteId',int,4,0,'ZZZ9',0,'Cliente ','',10 ]).
+attri_i('Datafim',[ 'DataFim',date,8,0,'99/99/99',0,'Data Fim','',9 ]).
+attri_i('Datainicio',[ 'DataInicio',date,8,0,'99/99/99',0,'Data Inicio','',8 ]).
+ 
+table_i(12,[ 'CarrinhoCompras',[ 52,53,54 ],'CarrinhoCompras','CarrinhoCompras' ]).
+table_i(11,[ 'Cliente',[ 43,44,45,46,47 ],'Cliente','Cliente' ]).
+ 
+index_i(12,[ 'ICARRINHOCOMPRAS',u,[ 52 ],'ICarrinhoCompras' ]).
+index_i(12,[ 'ICARRINHOCOMPRAS1',d,[ 54 ],'ICarrinhoCompras1' ]).
+index_i(11,[ 'ICLIENTE',u,[ 43 ],'ICliente' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+add_att_i(bits,5,40000,69,'PaisClienteBandeira_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,5,40001,3,'PaisBandeira_GXI',[ svchar,2048,0,0 ]).
+ 
+ 
+ 
+ 
+start_i(3,0,0,[ [ [ 54,23,'Clienteid',= ] ],many ]).
+ 
+end_i(3,0,0,[ [ [ t(54,2),t(=,10),t('Clienteid',23) ] ] ]).
+ 
+ 
+map_i(515,a,40000,[ 'PaisBandeira_GXI' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(96,[ 'Id' ]).
+dom_info_i(97,[ 'Nome' ]).
+dom_info_i(46,[ 'GeneXus\Address' ]).
+dom_info_i(48,[ 'GeneXus\Email' ]).
+dom_info_i(51,[ 'GeneXus\Phone' ]).
+ 
+ 
+break_i(3,nvg,2,[ 54 ],[ [ 54,44,45,47,46 ],[ 54,53 ],[] ]).
+break_i(2,nvg,1,[],[ [ 43 ],[],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,9).
+b_group_i(1,2,nvg,2,2,2).
+b_group_i(2,1,lit,0,11,11).
+b_group_i(2,2,nvg,3,5,5).
+b_group_i(3,1,lit,0,14,20).
+b_group_i(2,3,lit,0,27,25).
+b_group_i(1,3,lit,0,30,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,pb,0,[ t('Cabecalho',29,0,7) ]).
+b_line_i([ 1,0 ],1,1,line,0,[ t(' ',3,0,0) ]).
+b_line_i([ 1,3 ],1,1,line,3,[ t('Clientes e Carrinho Compras',3,3,47) ]).
+b_line_i([ 1,6 ],1,1,line,6,[ t('Datainicio',23,6,49),t(to,3,6,64),t('Datafim',23,6,71) ]).
+b_line_i([ 1,8 ],1,1,line,8,[ t(' ',3,8,0) ]).
+b_line_i(2,2,1,cmd,11,[ t('',121,2,0),t(table,3,2,10),t(11,3,2,10) ]).
+b_line_i(3,2,1,cmd,11,[ t('',107,3,0),t('Clienteid',23,11,0),t(=,10,11,0),t(43,2,11,0) ]).
+b_line_i(4,2,1,cmd,11,[]).
+b_line_i(5,3,1,cmd,14,[ t('',121,5,0),t(table,3,5,11),t(12,3,5,11),t('ORDER',39,5,30),t(54,2,5,36) ]).
+b_line_i(6,3,1,cmd,14,[]).
+b_line_i(10,3,1,pb,14,[ t('Cliente',29,14,9) ]).
+b_line_i([ 10,0 ],3,1,line,14,[ t(44,2,0,9) ]).
+b_line_i([ 10,2 ],3,1,line,16,[ t(45,2,2,9),t(46,2,2,32) ]).
+b_line_i([ 10,3 ],3,1,line,17,[ t(47,2,3,9) ]).
+b_line_i([ 10,5 ],3,1,line,19,[ t(' ',3,5,0) ]).
+b_line_i(11,3,1,cmd,20,[ t('',139,11,0) ]).
+b_line_i(12,3,1,cmd,20,[]).
+b_line_i(13,3,1,cmd,20,[ t('',128,13,0) ]).
+b_line_i(14,2,3,cmd,25,[]).
+b_line_i(15,2,3,cmd,25,[]).
+b_line_i(16,2,3,cmd,25,[ t('',128,16,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(2,1,bitmap(i(98,'d1264722-d6df-48f4-a529-c03a063b1abc')),[ ctlname('Gxreportimage1'),rect(127,27,267,107) ]).
+lit_i(3,1,t('Clientes e Carrinho Compras',3),[ font('Microsoft Sans Serif',12,[ bold ]),rect(333,53,633,74),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel1'),gxcolor([]) ]).
+lit_i(4,1,rect(4),[ rect(0,133,827,133),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline1'),gxcolor([]),borderstyle(0) ]).
+lit_i(10,1,t('Datainicio',23),[ font('Microsoft Sans Serif',8,[]),rect(347,93,414,108),outstyle(none),align(right),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('&datainicio'),ctrltype(edit,10),ispwd(0),gxcolor([]) ]).
+lit_i(11,1,t('Datafim',23),[ font('Microsoft Sans Serif',8,[]),rect(500,93,567,106),outstyle(none),align(right),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('&datafim'),ctrltype(edit,11),ispwd(0),gxcolor([]) ]).
+lit_i(12,1,t(to,3),[ font('Microsoft Sans Serif',8,[]),rect(453,93,463,107),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel2'),gxcolor([]) ]).
+lit_i(1,1,window,[ title('Text'),rect(0,0,827,142),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Cabecalho'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(1,10,t(44,2),[ font('Microsoft Sans Serif',9,[]),rect(67,13,187,30),outstyle(none),align(left),valign(top),fore(rgb(0,0,128)),border(1),format(0),ctlname('44'),ctrltype(edit,1),ispwd(0),gxcolor([]) ]).
+lit_i(6,10,t(45,2),[ font('Microsoft Sans Serif',8,[]),rect(67,40,194,55),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('45'),ctrltype(edit,6),ispwd(0),gxcolor([]) ]).
+lit_i(7,10,t(47,2),[ font('Microsoft Sans Serif',8,[]),rect(67,53,187,68),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('47'),ctrltype(edit,7),ispwd(0),gxcolor([]) ]).
+lit_i(8,10,t(46,2),[ font('Microsoft Sans Serif',8,[]),rect(227,40,332,55),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),format(0),ctlname('46'),ctrltype(edit,8),ispwd(0),gxcolor([]) ]).
+lit_i(9,10,rect(9),[ rect(0,93,823,93),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline2'),gxcolor([]),borderstyle(0) ]).
+lit_i(5,10,window,[ title('Text'),rect(0,0,827,100),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Cliente'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ctrl_info_i(1,10,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(1,11,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ 
+ 
+calling_main_i(1,17).
+ 
+att_prop_i(5,54,'ExternalName','ClienteCarrinhoComprasId',d).
+att_prop_i(5,54,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,54,'EmptyAsNull','Yes',d).
+att_prop_i(5,54,idBasedOn,96,d).
+att_prop_i(5,54,'AUTONUMBER','0',d).
+att_prop_i(5,54,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,54,'AttRegEx','',d).
+att_prop_i(5,54,'AttValidationFailedMsg','',d).
+att_prop_i(5,54,'DownloadOffline','0',d).
+att_prop_i(5,54,'VarServiceExtName','',d).
+att_prop_i(5,54,'FullName','ClienteCarrinhoComprasId',v).
+att_prop_i(5,44,'ExternalName','ClienteNome',d).
+att_prop_i(5,44,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,44,'EmptyAsNull','Yes',d).
+att_prop_i(5,44,idBasedOn,97,v).
+att_prop_i(5,44,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,44,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(5,44,'AttRegEx','',d).
+att_prop_i(5,44,'AttValidationFailedMsg','',d).
+att_prop_i(5,44,'DownloadOffline','0',d).
+att_prop_i(5,44,'VarServiceExtName','',d).
+att_prop_i(5,44,'FullName','ClienteNome',v).
+att_prop_i(5,45,'ExternalName','ClienteEndereco',d).
+att_prop_i(5,45,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,45,'EmptyAsNull','Yes',d).
+att_prop_i(5,45,idBasedOn,46,v).
+att_prop_i(5,45,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,45,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(5,45,'AttRegEx','',d).
+att_prop_i(5,45,'AttValidationFailedMsg','',d).
+att_prop_i(5,45,'DownloadOffline','0',d).
+att_prop_i(5,45,'VarServiceExtName','',d).
+att_prop_i(5,45,'FullName','ClienteEndereco',v).
+att_prop_i(5,47,'ExternalName','ClienteEmail',d).
+att_prop_i(5,47,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,47,'EmptyAsNull','Yes',d).
+att_prop_i(5,47,idBasedOn,48,v).
+att_prop_i(5,47,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,47,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(5,47,'AttRegEx','^((\w+([-+.'']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*)|(\s*))$',d).
+att_prop_i(5,47,'AttValidationFailedMsg','GXM_DoesNotMatchRegExp',d).
+att_prop_i(5,47,'DownloadOffline','0',d).
+att_prop_i(5,47,'VarServiceExtName','',d).
+att_prop_i(5,47,'FullName','ClienteEmail',v).
+att_prop_i(5,46,'ExternalName','ClienteTelefone',d).
+att_prop_i(5,46,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,46,'EmptyAsNull','Yes',d).
+att_prop_i(5,46,idBasedOn,51,v).
+att_prop_i(5,46,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,46,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(5,46,'AttRegEx','',d).
+att_prop_i(5,46,'AttValidationFailedMsg','',d).
+att_prop_i(5,46,'DownloadOffline','0',d).
+att_prop_i(5,46,'VarServiceExtName','',d).
+att_prop_i(5,46,'FullName','ClienteTelefone',v).
+att_prop_i(5,43,'ExternalName','ClienteId',d).
+att_prop_i(5,43,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,43,'EmptyAsNull','Yes',d).
+att_prop_i(5,43,idBasedOn,96,v).
+att_prop_i(5,43,'AUTONUMBER','0',d).
+att_prop_i(5,43,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,43,'AttRegEx','',d).
+att_prop_i(5,43,'AttValidationFailedMsg','',d).
+att_prop_i(5,43,'DownloadOffline','0',d).
+att_prop_i(5,43,'VarServiceExtName','',d).
+att_prop_i(5,43,'FullName','ClienteId',v).
+att_prop_i(5,53,'ExternalName','CarrinhoComprasData',d).
+att_prop_i(5,53,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,53,'EmptyAsNull','Yes',d).
+att_prop_i(5,53,idBasedOn,'',d).
+att_prop_i(5,53,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,53,'AttRegEx','',d).
+att_prop_i(5,53,'AttValidationFailedMsg','',d).
+att_prop_i(5,53,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(5,53,'DownloadOffline','0',d).
+att_prop_i(5,53,'VarServiceExtName','',d).
+att_prop_i(5,53,'FullName','CarrinhoComprasData',v).
+att_prop_i(5,52,'ExternalName','CarrinhoComprasId',d).
+att_prop_i(5,52,'ExternalNamespace','LojaAnnaLaisa1',d).
+att_prop_i(5,52,'EmptyAsNull','Yes',d).
+att_prop_i(5,52,idBasedOn,96,v).
+att_prop_i(5,52,'AUTONUMBER','0',d).
+att_prop_i(5,52,'ATT_INITIAL_VALUE','',d).
+att_prop_i(5,52,'AttRegEx','',d).
+att_prop_i(5,52,'AttValidationFailedMsg','',d).
+att_prop_i(5,52,'DownloadOffline','0',d).
+att_prop_i(5,52,'VarServiceExtName','',d).
+att_prop_i(5,52,'FullName','CarrinhoComprasId',v).
+ 
+tbl_prop_i(5,11,'DirSubor',[ [ 12,[ 54 ] ] ],v).
+ 
+tbl_att_prop_i(5,12,52,'AllowNulls',n).
+tbl_att_prop_i(5,12,53,'AllowNulls',n).
+tbl_att_prop_i(5,12,54,'AllowNulls',n).
+tbl_att_prop_i(5,11,43,'AllowNulls',n).
+tbl_att_prop_i(5,11,44,'AllowNulls',n).
+tbl_att_prop_i(5,11,45,'AllowNulls',n).
+tbl_att_prop_i(5,11,46,'AllowNulls',n).
+tbl_att_prop_i(5,11,47,'AllowNulls',n).
+ 
+var_prop_i(5,'Clienteid',idBasedOn,'',v).
+ 
+ 
+ 
+a_alias_i(40000,'PaisClienteBandeira_GXI').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,17,'CLIENTEINFORMACOES','HTTP','Unsecure').
+ 
+ 
+pgm_main_info_i(proc,17,'CLIENTEINFORMACOES',[ 41,'ACLIENTEINFORMACOES','Cliente Informações','','','','HTTP' ]).
+ 
+ 
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+optimize_i(3,0,[ maxrows(1) ]).
+ 
+ 
+ 
+ 
+ 

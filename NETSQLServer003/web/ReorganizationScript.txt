@@ -1,0 +1,57 @@
+CREATE TABLE [CarrinhoComprasProdutos] ([CarrinhoComprasId] smallint NOT NULL , [ProdutoId] smallint NOT NULL , [CarrinhoComprasProdutosQuantid] smallint NOT NULL , PRIMARY KEY([CarrinhoComprasId], [ProdutoId]))
+CREATE NONCLUSTERED INDEX [ICARRINHOCOMPRASPRODUTOS1] ON [CarrinhoComprasProdutos] ([ProdutoId] )
+
+CREATE TABLE [CarrinhoCompras] ([CarrinhoComprasId] smallint NOT NULL , [CarrinhoComprasData] datetime NOT NULL , [ClienteCarrinhoComprasId] smallint NOT NULL , PRIMARY KEY([CarrinhoComprasId]))
+CREATE NONCLUSTERED INDEX [ICARRINHOCOMPRAS1] ON [CarrinhoCompras] ([ClienteCarrinhoComprasId] )
+
+CREATE TABLE [Cliente] ([ClienteId] smallint NOT NULL , [ClienteNome] nvarchar(40) NOT NULL , [ClienteEndereco] nvarchar(1024) NOT NULL , [ClienteTelefone] nchar(20) NOT NULL , [ClienteEmail] nvarchar(100) NOT NULL , [PaisClienteId] smallint NOT NULL , [CartaoPontosClienteId] smallint NULL , PRIMARY KEY([ClienteId]))
+CREATE NONCLUSTERED INDEX [ICLIENTE1] ON [Cliente] ([PaisClienteId] )
+CREATE NONCLUSTERED INDEX [ICLIENTE2] ON [Cliente] ([CartaoPontosClienteId] )
+
+CREATE TABLE [CartaoPontos] ([CartaoPontosId] smallint NOT NULL , [CartaoPontosDescricao] nvarchar(20) NOT NULL , [ClienteCartaoPontosId] smallint NOT NULL , PRIMARY KEY([CartaoPontosId]))
+CREATE UNIQUE NONCLUSTERED INDEX [UCARTAOPONTOS] ON [CartaoPontos] ([ClienteCartaoPontosId] )
+
+CREATE TABLE [PromocaoProduto] ([PromocaoId] smallint NOT NULL , [ProdutoId] smallint NOT NULL , PRIMARY KEY([PromocaoId], [ProdutoId]))
+CREATE NONCLUSTERED INDEX [IPROMOCAOPRODUTO1] ON [PromocaoProduto] ([ProdutoId] )
+
+CREATE TABLE [Promocao] ([PromocaoId] smallint NOT NULL , [PromocaoDescricao] nvarchar(40) NOT NULL , [PromocaoImagem] VARBINARY(MAX) NOT NULL , [PromocaoImagem_GXI] varchar(2048) NULL , [PromocaoDataInicio] datetime NOT NULL , [PromocaoDataTermino] datetime NOT NULL , PRIMARY KEY([PromocaoId]))
+
+CREATE TABLE [Produto] ([ProdutoId] smallint NOT NULL , [ProdutoNome] nvarchar(40) NOT NULL , [ProdutoDescricao] nvarchar(20) NOT NULL , [ProdutoPreco] money NOT NULL , [ProdutoImagem] VARBINARY(MAX) NOT NULL , [ProdutoImagem_GXI] varchar(2048) NULL , [VendedorProdutoId] smallint NOT NULL , [PaisProdutoId] smallint NOT NULL , [FornecedorProdutoId] smallint NOT NULL , [CategoriaProdutoId] smallint NOT NULL , PRIMARY KEY([ProdutoId]))
+CREATE UNIQUE NONCLUSTERED INDEX [UPRODUTO] ON [Produto] ([ProdutoNome] )
+CREATE NONCLUSTERED INDEX [IPRODUTO1] ON [Produto] ([CategoriaProdutoId] )
+CREATE NONCLUSTERED INDEX [IPRODUTO2] ON [Produto] ([FornecedorProdutoId] )
+CREATE NONCLUSTERED INDEX [IPRODUTO3] ON [Produto] ([PaisProdutoId] )
+CREATE NONCLUSTERED INDEX [IPRODUTO4] ON [Produto] ([VendedorProdutoId] )
+
+CREATE TABLE [Fornecedor] ([FornecedorId] smallint NOT NULL , [FornecedorNome] nvarchar(40) NOT NULL , PRIMARY KEY([FornecedorId]))
+CREATE UNIQUE NONCLUSTERED INDEX [UFORNECEDOR] ON [Fornecedor] ([FornecedorNome] )
+
+CREATE TABLE [Vendedor] ([VendedorId] smallint NOT NULL , [VendedorNome] nvarchar(40) NOT NULL , [VendedorFoto] VARBINARY(MAX) NOT NULL , [VendedorFoto_GXI] varchar(2048) NULL , [PaisVendedorId] smallint NOT NULL , PRIMARY KEY([VendedorId]))
+CREATE NONCLUSTERED INDEX [IVENDEDOR1] ON [Vendedor] ([PaisVendedorId] )
+
+CREATE TABLE [Categoria] ([CategoriaId] smallint NOT NULL , [CategoriaNome] nvarchar(40) NOT NULL , PRIMARY KEY([CategoriaId]))
+CREATE UNIQUE NONCLUSTERED INDEX [UCATEGORIA] ON [Categoria] ([CategoriaNome] )
+
+CREATE TABLE [Pais] ([PaisId] smallint NOT NULL , [PaisNome] nvarchar(40) NOT NULL , [PaisBandeira] VARBINARY(MAX) NOT NULL , [PaisBandeira_GXI] varchar(2048) NULL , PRIMARY KEY([PaisId]))
+CREATE UNIQUE NONCLUSTERED INDEX [UPAIS] ON [Pais] ([PaisNome] )
+
+ALTER TABLE [Vendedor] ADD CONSTRAINT [IVENDEDOR1] FOREIGN KEY ([PaisVendedorId]) REFERENCES [Pais] ([PaisId])
+
+ALTER TABLE [Produto] ADD CONSTRAINT [IPRODUTO4] FOREIGN KEY ([VendedorProdutoId]) REFERENCES [Vendedor] ([VendedorId])
+ALTER TABLE [Produto] ADD CONSTRAINT [IPRODUTO3] FOREIGN KEY ([PaisProdutoId]) REFERENCES [Pais] ([PaisId])
+ALTER TABLE [Produto] ADD CONSTRAINT [IPRODUTO2] FOREIGN KEY ([FornecedorProdutoId]) REFERENCES [Fornecedor] ([FornecedorId])
+ALTER TABLE [Produto] ADD CONSTRAINT [IPRODUTO1] FOREIGN KEY ([CategoriaProdutoId]) REFERENCES [Categoria] ([CategoriaId])
+
+ALTER TABLE [PromocaoProduto] ADD CONSTRAINT [IPROMOCAOPRODUTO2] FOREIGN KEY ([PromocaoId]) REFERENCES [Promocao] ([PromocaoId])
+ALTER TABLE [PromocaoProduto] ADD CONSTRAINT [IPROMOCAOPRODUTO1] FOREIGN KEY ([ProdutoId]) REFERENCES [Produto] ([ProdutoId])
+
+ALTER TABLE [CartaoPontos] ADD CONSTRAINT [ICARTAOPONTOS] FOREIGN KEY ([ClienteCartaoPontosId]) REFERENCES [Cliente] ([ClienteId])
+
+ALTER TABLE [Cliente] ADD CONSTRAINT [ICLIENTE1] FOREIGN KEY ([PaisClienteId]) REFERENCES [Pais] ([PaisId])
+ALTER TABLE [Cliente] ADD CONSTRAINT [ICLIENTE2] FOREIGN KEY ([CartaoPontosClienteId]) REFERENCES [CartaoPontos] ([CartaoPontosId])
+
+ALTER TABLE [CarrinhoCompras] ADD CONSTRAINT [ICARRINHOCOMPRAS1] FOREIGN KEY ([ClienteCarrinhoComprasId]) REFERENCES [Cliente] ([ClienteId])
+
+ALTER TABLE [CarrinhoComprasProdutos] ADD CONSTRAINT [ICARRINHOCOMPRASPRODUTOS2] FOREIGN KEY ([CarrinhoComprasId]) REFERENCES [CarrinhoCompras] ([CarrinhoComprasId])
+ALTER TABLE [CarrinhoComprasProdutos] ADD CONSTRAINT [ICARRINHOCOMPRASPRODUTOS1] FOREIGN KEY ([ProdutoId]) REFERENCES [Produto] ([ProdutoId])
+

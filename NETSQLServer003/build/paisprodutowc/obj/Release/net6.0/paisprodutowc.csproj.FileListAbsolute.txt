@@ -1,0 +1,10 @@
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\paisprodutowc.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\paisprodutowc.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\paisprodutowc\obj\Release\net6.0\paisprodutowc.csproj.AssemblyReference.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\paisprodutowc\obj\Release\net6.0\paisprodutowc.GeneratedMSBuildEditorConfig.editorconfig
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\paisprodutowc\obj\Release\net6.0\paisprodutowc.csproj.CoreCompileInputs.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\paisprodutowc\obj\Release\net6.0\paisprodutowc.csproj.CopyComplete
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\paisprodutowc\obj\Release\net6.0\paisprodutowc.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\paisprodutowc\obj\Release\net6.0\refint\paisprodutowc.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\paisprodutowc\obj\Release\net6.0\paisprodutowc.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\paisprodutowc\obj\Release\net6.0\ref\paisprodutowc.dll

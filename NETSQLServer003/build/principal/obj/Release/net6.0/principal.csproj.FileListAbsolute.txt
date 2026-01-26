@@ -1,0 +1,10 @@
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\principal.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\principal.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\principal\obj\Release\net6.0\principal.csproj.AssemblyReference.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\principal\obj\Release\net6.0\principal.GeneratedMSBuildEditorConfig.editorconfig
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\principal\obj\Release\net6.0\principal.csproj.CoreCompileInputs.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\principal\obj\Release\net6.0\principal.csproj.CopyComplete
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\principal\obj\Release\net6.0\principal.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\principal\obj\Release\net6.0\refint\principal.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\principal\obj\Release\net6.0\principal.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\principal\obj\Release\net6.0\ref\principal.dll

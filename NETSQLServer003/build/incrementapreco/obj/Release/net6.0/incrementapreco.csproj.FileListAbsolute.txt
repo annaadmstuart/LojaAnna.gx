@@ -1,0 +1,10 @@
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\incrementapreco.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\incrementapreco.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\incrementapreco\obj\Release\net6.0\incrementapreco.csproj.AssemblyReference.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\incrementapreco\obj\Release\net6.0\incrementapreco.GeneratedMSBuildEditorConfig.editorconfig
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\incrementapreco\obj\Release\net6.0\incrementapreco.csproj.CoreCompileInputs.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\incrementapreco\obj\Release\net6.0\incrementapreco.csproj.CopyComplete
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\incrementapreco\obj\Release\net6.0\incrementapreco.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\incrementapreco\obj\Release\net6.0\refint\incrementapreco.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\incrementapreco\obj\Release\net6.0\incrementapreco.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\incrementapreco\obj\Release\net6.0\ref\incrementapreco.dll

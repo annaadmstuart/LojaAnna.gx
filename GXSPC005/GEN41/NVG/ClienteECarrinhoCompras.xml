@@ -1,0 +1,46 @@
+
+<ObjectSpec>
+<SpecVersion>18_0_0-166471</SpecVersion>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>35</ObjId>
+<ObjName>ClienteECarrinhoCompras</ObjName>
+<ObjDesc>Cliente ECarrinho Compras</ObjDesc>
+<ObjPgmName>ClienteECarrinhoCompras</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Main>Yes</Main>
+<Generator>
+<GenId>41</GenId>
+<GenName>Default (.NET)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>'Resultados'</EventName></Event>
+<Event>
+<EventName>'Deletar'</EventName>
+<CALL>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>18</ObjId>
+<ObjName>DeletaCarrinhoCompras</ObjName>
+<ObjPgmName>DeletaCarrinhoCompras</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Expression>
+<Variable>
+<VarId>Datainicio</VarId>
+<VarName>&amp;DataInicio</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Datafim</VarId>
+<VarName>&amp;DataFim</VarName></Variable></Expression>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>Load</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

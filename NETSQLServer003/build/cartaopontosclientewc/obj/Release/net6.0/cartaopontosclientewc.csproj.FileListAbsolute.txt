@@ -1,0 +1,10 @@
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\cartaopontosclientewc.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\cartaopontosclientewc.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\cartaopontosclientewc\obj\Release\net6.0\cartaopontosclientewc.csproj.AssemblyReference.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\cartaopontosclientewc\obj\Release\net6.0\cartaopontosclientewc.GeneratedMSBuildEditorConfig.editorconfig
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\cartaopontosclientewc\obj\Release\net6.0\cartaopontosclientewc.csproj.CoreCompileInputs.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\cartaopontosclientewc\obj\Release\net6.0\cartaopontosclientewc.csproj.CopyComplete
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\cartaopontosclientewc\obj\Release\net6.0\cartaopontosclientewc.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\cartaopontosclientewc\obj\Release\net6.0\refint\cartaopontosclientewc.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\cartaopontosclientewc\obj\Release\net6.0\cartaopontosclientewc.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\cartaopontosclientewc\obj\Release\net6.0\ref\cartaopontosclientewc.dll

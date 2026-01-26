@@ -1,0 +1,10 @@
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\viewcartaopontos.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\viewcartaopontos.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewcartaopontos\obj\Release\net6.0\viewcartaopontos.csproj.AssemblyReference.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewcartaopontos\obj\Release\net6.0\viewcartaopontos.GeneratedMSBuildEditorConfig.editorconfig
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewcartaopontos\obj\Release\net6.0\viewcartaopontos.csproj.CoreCompileInputs.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewcartaopontos\obj\Release\net6.0\viewcartaopontos.csproj.CopyComplete
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewcartaopontos\obj\Release\net6.0\viewcartaopontos.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewcartaopontos\obj\Release\net6.0\refint\viewcartaopontos.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewcartaopontos\obj\Release\net6.0\viewcartaopontos.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewcartaopontos\obj\Release\net6.0\ref\viewcartaopontos.dll

@@ -1,0 +1,9 @@
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\Reorganization.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\Reorganization.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\reorganization\obj\Release\net6.0\reorganization.csproj.AssemblyReference.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\reorganization\obj\Release\net6.0\reorganization.GeneratedMSBuildEditorConfig.editorconfig
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\reorganization\obj\Release\net6.0\reorganization.csproj.CoreCompileInputs.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\reorganization\obj\Release\net6.0\Reorganization.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\reorganization\obj\Release\net6.0\refint\Reorganization.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\reorganization\obj\Release\net6.0\Reorganization.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\reorganization\obj\Release\net6.0\ref\Reorganization.dll

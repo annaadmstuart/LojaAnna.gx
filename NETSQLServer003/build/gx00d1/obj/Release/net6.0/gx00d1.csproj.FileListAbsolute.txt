@@ -1,0 +1,10 @@
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\gx00d1.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\gx00d1.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\gx00d1\obj\Release\net6.0\gx00d1.csproj.AssemblyReference.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\gx00d1\obj\Release\net6.0\gx00d1.GeneratedMSBuildEditorConfig.editorconfig
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\gx00d1\obj\Release\net6.0\gx00d1.csproj.CoreCompileInputs.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\gx00d1\obj\Release\net6.0\gx00d1.csproj.CopyComplete
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\gx00d1\obj\Release\net6.0\gx00d1.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\gx00d1\obj\Release\net6.0\refint\gx00d1.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\gx00d1\obj\Release\net6.0\gx00d1.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\gx00d1\obj\Release\net6.0\ref\gx00d1.dll

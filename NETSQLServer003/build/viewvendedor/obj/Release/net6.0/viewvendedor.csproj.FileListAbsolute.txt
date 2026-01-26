@@ -1,0 +1,10 @@
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\viewvendedor.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\viewvendedor.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewvendedor\obj\Release\net6.0\viewvendedor.csproj.AssemblyReference.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewvendedor\obj\Release\net6.0\viewvendedor.GeneratedMSBuildEditorConfig.editorconfig
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewvendedor\obj\Release\net6.0\viewvendedor.csproj.CoreCompileInputs.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewvendedor\obj\Release\net6.0\viewvendedor.csproj.CopyComplete
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewvendedor\obj\Release\net6.0\viewvendedor.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewvendedor\obj\Release\net6.0\refint\viewvendedor.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewvendedor\obj\Release\net6.0\viewvendedor.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\viewvendedor\obj\Release\net6.0\ref\viewvendedor.dll

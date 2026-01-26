@@ -1,0 +1,5 @@
+bc_dt_elem_i([ 0,1,0 ],'Paisid',allownulls,no).
+bc_dt_elem_i([ 0,1,0 ],'Paisnome',allownulls,no).
+bc_dt_elem_i([ 0,1,0 ],'Paisbandeira',allownulls,no).
+bc_dt_elem_i([ 0,1,0 ],'Paisbandeira_gxi',allownulls,no).
+ 

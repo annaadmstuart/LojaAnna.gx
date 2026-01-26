@@ -1,0 +1,36 @@
+current_obj_i(5,proc,16).
+ 
+current_guid('517b10dd-2302-44aa-bb2e-4fac09cc262b').
+ 
+ 
+ 
+is_webproc_i(aprodutoscategoria).
+ 
+ 
+is_pdf_i.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_main_object(aprodutoscategoria,'Produtos Categoria','','""','HTTP',default).
+ 
+ 
+ 
+ 
+ij_object_dependency(aprodutoscategoria,[],[],[],16).
+ 
+ 
+obj_parms_i([ 'short aP0_CategoriaId' ],[ [ 'Categoriaid',inout ] ]).
+ 
+ 
+ 
+ 
+ 
+ 

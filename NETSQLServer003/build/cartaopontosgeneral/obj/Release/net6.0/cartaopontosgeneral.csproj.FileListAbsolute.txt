@@ -1,0 +1,10 @@
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\cartaopontosgeneral.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\web\bin\cartaopontosgeneral.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\cartaopontosgeneral\obj\Release\net6.0\cartaopontosgeneral.csproj.AssemblyReference.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\cartaopontosgeneral\obj\Release\net6.0\cartaopontosgeneral.GeneratedMSBuildEditorConfig.editorconfig
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\cartaopontosgeneral\obj\Release\net6.0\cartaopontosgeneral.csproj.CoreCompileInputs.cache
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\cartaopontosgeneral\obj\Release\net6.0\cartaopontosgeneral.csproj.CopyComplete
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\cartaopontosgeneral\obj\Release\net6.0\cartaopontosgeneral.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\cartaopontosgeneral\obj\Release\net6.0\refint\cartaopontosgeneral.dll
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\cartaopontosgeneral\obj\Release\net6.0\cartaopontosgeneral.pdb
+C:\KBs\LojaAnnaLaisa1\NETSQLServer003\build\cartaopontosgeneral\obj\Release\net6.0\ref\cartaopontosgeneral.dll

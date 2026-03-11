@@ -37,6 +37,12 @@ O objetivo principal deste projeto foi:
 - Implementação de lógica para cálculo de comissão  
 
 ---
+## 📷 Demonstração do Sistema
+
+![Tela do Sistema](2026-03-11(1).png)
+
+![Registro de Pedido](2026-03-11(2).png)
+---
 
 ## 🛠️ Tecnologias Utilizadas
 

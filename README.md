@@ -40,8 +40,7 @@ O objetivo principal deste projeto foi:
 ## 📷 Demonstração do Sistema
 
 ![Tela do Sistema](2026-03-11 (1).png)
-
-![Registro de Pedido](2026-03-11 (2).png)
+![Tela de Pedidos](2026-03-11 (2).png)
 ---
 
 ## 🛠️ Tecnologias Utilizadas
